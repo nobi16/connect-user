@@ -1,0 +1,3665 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	/*Mfav*/
+	.vgs .heart-img-fav{
+	    padding-right: 10px;
+	}
+	.second .fav-item-add{
+		width: 55px;
+		height: 26px;
+	}
+
+	/*Myfav End*/
+	/*MY QRPAGE*/
+	.my-qr-section .col-3-left {
+    	width: 13%;
+	}
+	.my-qr-section .col-9-right {
+    	width: 87%;
+    	margin-left: 14px;
+	}
+	.qr-details{
+		max-width: 350px;
+	}
+	.my-qr-section .myqr-options{
+		right: 	22px;
+	}
+	.my-qr-section .view-delete-btn{
+	    width: 122px;
+    	margin-top: 10px;	
+	}
+	.my-qr-section 
+	/*MY QR PAGE END*/
+
+	/*TRACK PAGE */
+	.lok .track-order-titles{
+	    font-size: 18px;
+	}
+	.lok .track-order-details{
+	    font-size: 16px;
+	}
+	.line-trackorder{
+	    left: 50%;
+	}
+	.storetitle .orderitem-price{
+		margin-left: 3%;
+	}
+	.track-tab .nav-link{
+		font-size: 18px;
+	}
+	.track-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+		font-size: 18px;
+	}
+	/*TRACK PAGE END*/
+
+	/*ABC PAGE (After outlate selection)*/
+	.pagenav{
+		font-size: 18px; 
+	}
+	.storepad .storetit{
+		font-size: 18px !important;
+		max-width: 360px!important;
+	}
+	.timekm{font-size: 18px;}
+
+	.storedetails li:nth-child(1) {
+    	width: 26%;
+	}
+	.storedetails li:nth-child(2) {
+    	width: 26%;
+	}
+	.storedetails li:nth-child(3) {
+    	width: 26%;
+	}
+	.storedetails li:nth-child(4) {
+    	width: 22%;
+	}
+	.menu-clock-center{
+		text-align: center !important;
+	}
+	li .star-img{
+		width: 20px;
+		margin-bottom: 8px !important;
+    	margin-right: 4px !important;
+	}
+	li .location-img{
+		width: 14px;
+		margin-bottom: 4px !important;
+		margin-right: 6px;
+	}
+	li .clock-img{
+		margin-bottom: 5px;
+    	margin-right: 5px;
+	}
+	li .fav-img{
+		float: right;
+		margin-top: 4px;
+		margin-right: 3px;
+	}
+	.menuimg {
+    	width: 11%;
+    }
+    .menutitle{
+    	width: 89%;
+    }
+    .menutitle .p-title{
+        width: 90%;
+    }
+    .menutitle .p-price {
+    	width: 10%;
+	}
+    .menu-img{
+    	width: 100%;
+    	height: auto;
+    	margin:6px;
+    }
+    .menu-subcatname{
+        margin-left: 16px;
+    }
+    .heart-img {
+    	height: 17px;
+    	width: 18px;
+    	margin-left: 10px;
+	}
+	.menutitle .otdescription{
+		margin-left: 2%;
+	}
+	.menutitle .otname{
+		margin-left: 2%;
+		margin-top: 5px;
+	}
+	.menu-subcategory{
+    	margin-right: 3px;
+	}
+	.menutitle .addbutton{
+		margin-top: 30%;
+	}
+	.whatsappicon{
+		right: 10px;
+	}
+	.menusearch .menusearch-container {
+	    position: relative;
+	    width: 95%;
+	    display: inline-block;
+	}
+	.menusearch-container input{
+		width: 100%;
+	}
+	.filter{
+		margin-top: 0px;
+		float: 	right;	
+	}
+	.menusearch-icon{
+		right: 9px;
+    	top: 9px;
+	}
+	.filter{
+		margin-left: 0px;
+	}
+	/*ABC PAGE (After outlate selection) END*/
+	/*LOGIN SCREEN*/
+	.locat {
+    	padding-right: 12px;
+    	margin-top: -2px;
+    	width: 35px;
+	}
+	.login-section .send-btn{
+		width: 44% !important;
+	}
+	.login-section .font-20 {
+    	font-size: 16px !important;
+	}
+	/*LOGIN SCREEN END*/
+	/*Offer Page*/
+	.combo-title{
+		font-size: 18px;
+	}
+	.tag-line{
+		font-size: 18px;
+	}
+	.offer-tag-line{
+		font-size: 15px;
+		max-width: 200px;
+	}
+	/*Offer Page*/
+
+	/*Home Page */
+	.tg-bt {
+    	padding-top: 75px;
+	}
+	.cat{
+		margin-top: 12px !important;
+		margin-bottom: 12px !important;
+		font-size: 15px !important;
+	}
+	.offerbanner img {
+	    width: 100%;
+	    height: 320px;
+  	}
+  	.offerbanner button{
+  	    top: 85%;
+  	    width: 148px;
+    	height: 38px;
+    	font-size: 18px;
+  	}
+  	.offerbanner label{
+  	    padding: 5px 5px 5px 14px;
+  	    width: 230px;
+    	height: 65px;
+  	}
+  	.shoptext {
+    	font-size: 16px;
+    	margin-top: 5px;
+	}
+	.otimg {
+    	width: 13%;
+    	float: left;
+	}
+	.storetitle {
+    	padding-top: 12px;
+    	width: 87%;
+	}
+	.otname {
+	    font-size: 18px;
+	    max-width: 445px;
+	    margin-left: 3%;
+	}
+	.otdescription {
+    	margin-left: 3%;
+    	font-size: 16px;
+    	max-width: 450px;
+    	margin-bottom: 14px;
+    	margin-top: 9px;
+	}
+	p.octime {
+    	margin-left: 3%;
+    	font-size: 16px;
+	}
+	.iconekm{
+		font-size: 18px;
+		padding-left: 2%;
+	}
+	.ratingkm{
+	    font-size: 16px;
+	}
+	.otstar{
+		font-size: 18px;
+	}
+	/*Home page end*/
+
+	/*ADDITEM PAGE*/
+	.outimg {
+    	width: 100%;
+    	height: 300px;
+	}
+	.storetit{
+		font-size: 20px;
+	}
+	.price{
+		font-size: 20px;
+	}
+	.additem-itemdescription{
+		font-size: 18px;
+	}
+	input[type=checkbox], input[type=radio]{
+		height: 18px;
+    	width: 18px;
+	}
+	.alg-label{
+		margin-bottom: 6px;
+		margin-left: 5px;
+		font-size: 16px;
+		padding-top: 2px;
+	}
+	.hr{
+    	margin-block-start: 10px;
+    	margin-block-end: 10px;
+	}
+	/*ADDITEM PAGE END*/
+
+	/*CART PAGE */
+	.cart-img {
+    	width: 14%;
+    	float: left;
+	}
+	.cart-item-title{
+		width: 86%;
+		padding-left: 2%;
+	}
+	.p-title {
+    	width: 80%;
+    	float: left;
+	}
+	.p-price {
+    	width: 20%;
+    	float: left;
+    	padding-right: 0px;
+	}
+	.cart-item-img {
+    	height: auto;
+    	width: 100%;
+	}
+	.customization-box .card-header {
+    	padding: 6px .25rem;
+	}
+	.itemname {
+    	margin-top: 7px;
+    	margin-bottom: 7%;
+    	font-size: 20px;
+	}
+	.p-price .text-center{
+		float: right;
+	}
+	.text-center .deleteicon {
+    	margin-top: 7px;
+    	text-align: center;
+	}
+	.cart-price{
+		font-size: 18px;
+	}
+	.x-style{
+		font-size: 20px;
+	}
+	.cart-add-btn{
+		height: 30px;
+    	width: 90px;
+    	margin-left: 5px;
+	}
+	.container .card-title{
+		font-size: 18px;
+		padding-left: 8px;
+	}
+	.plus {
+    	padding-left: 8px;
+    	width: 22px;
+	}
+	.minus {
+    	padding-right: 5px;
+    	width: 20px;
+	}
+	.number{
+		font-size: 18px;
+	}
+	.bill-title{
+		font-size: 18px;
+		margin-bottom: 12px;
+	}
+	.bill-text{
+		font-size: 15px;
+	}
+	.bill-amount{
+		font-size: 15px;
+	}
+	.address-note{
+		display: block;
+		margin-top: 8px;
+	}
+	.change-address-btn{
+		width: 65px;
+		font-size: 14px;
+	}
+	.cart-item-price{
+		margin-top: 88%;
+		font-size: 18px;
+	}
+	.customization-box {
+    	margin-top: 14%;
+	}
+	.cart-address{
+		font-size: 18px;
+		max-width: 500px!important;
+	}
+	.btn-schedule{
+		font-size: 18px;
+		width: 210px;
+	}
+	.btn-delivernow{
+		font-size: 18px;
+		width: 210px;
+	}
+	.topborder .custom-control-label {
+    	font-size: 16px;
+    	margin-bottom: 2px;
+	}
+	.note{
+		font-size: 18px;
+	}
+	/*CART PAGE END*/
+
+	/*Ordersummary Page*/
+	.ordersummary-img {
+    	width: 17%;
+	}
+	.ordersummary-item-title{
+		width: 83%;
+	}
+	.order-s{
+		font-size: 15px;
+	}
+	.ordersummary-itemname {
+    	margin-top: 4px;
+    	margin-bottom: 3%;
+	}
+	.order-s-mobilenumber{
+		margin-top: 16px;
+	}
+	.order-s-callicon{
+		margin-top: 18px;
+	}
+	.ordersummary-section .bill-text{
+		font-size: 15px;
+	}
+	.ordersummary-section .bill-amount{
+		font-size: 15px;
+	}
+	.tip-card-dis{
+		font-size: 16px;
+	}
+	.proceed-to-pay{
+	    padding: 10px 0px;
+	    margin-top: 30px;
+	}
+	.tip-buttons {
+    	width: 80px;
+    	height: 50px;
+    	font-size: 18px;
+	}
+	.tip {
+    font-size: 10px;
+	}
+	/*Ordersummary page*/
+
+	/*PROFILE PAGE & PREFERENCES PAGE*/
+	.field-name {
+    	font-size: 17px;
+	}
+	.sc-btn-section {
+    	margin-top: 34px;
+	}
+	.sc-btn-section .savebtn{
+		width: 74%;
+	}
+	.sc-btn-section .cancelbtn{
+		width: 74%;
+	}
+	/*PROFILE PAGE & PREFERENCES PAGE*/
+
+	/*ORDER HISTORY PAGE*/
+	.modal-header {
+    	padding: 3px 8px;
+	}
+	.rate-store-name {
+	    font-size: 24px;
+	    margin-top: 14px;
+	    margin-bottom: 18px;
+	}
+	.store-name{
+		font-size: 18px;
+	}
+	.order-text{
+		font-size: 15px;
+	}
+	.order-no{
+		font-size: 16px;
+	}
+	.order-history-amount{
+		font-size: 16px;
+	}
+	.order-time-date{
+		margin-bottom: 26px;
+	}
+	.item-name-qty{
+		font-size: 15px;
+	}
+	/*ORDER HISTORY PAGE END*/
+
+	/*ORDER PAGE*/
+	.st-ord-img {
+    	padding-top: 6px;
+     	margin-left: 0%; 
+	}
+	.order-store{
+    	margin-left: -3%;
+	}
+	.bottom-border .reorder-ratefood-btn{
+		width: 50%;
+	}
+	/*ORDER PAGE END*/
+
+	/*DELIVERY STATUS PAGE */
+	.for-twoline{	
+    	-webkit-line-clamp: 4;
+	}
+	.rate-service .font-18{
+		font-size: 20px;
+	}
+	.service-main-tit{
+		margin-top: 3%;
+	}
+	.comment-section{
+	    margin-top: 11%;
+	}
+	.service-tag-btn{
+		width: 85%;
+	}
+	.tgbtn-sec{
+		margin-top: 3% !important;
+	}
+	.rate-service img{
+	    width: 33%;
+	}
+	/*Delivery Status Page END*/
+
+	/*ENTER MOBILE NUMBE PAGE*/
+	.country-dropdown .intl-tel-input.allow-dropdown {
+    	width: 30% !important;
+    	margin: 0 auto;
+	}
+	.send-btn{
+		width: 30% !important;
+	}
+	/*ENTER MOBILE NUMBE PAGE END*/
+
+	
+}
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+	/*MY QRPAGE*/
+	.my-qr-section .col-3-left {
+    	width: 17%;
+	}
+	.my-qr-section .col-9-right {
+    	width: 83%;
+    	margin-left: 14px;
+	}
+	.qr-details{
+		max-width: 350px;
+	}
+	.my-qr-section .myqr-options{
+		right: 	22px;
+	}
+	.my-qr-section .view-delete-btn{
+	    width: 122px;
+    	margin-top: 10px;
+    	margin-bottom: 0px;	
+	}
+	.my-qr-section .myqr-store-name{
+	    margin-bottom: 3px;
+	}
+	/*MY QR PAGE END*/
+	/*TRACK PAGE */
+	.lok .track-order-titles{
+	    font-size: 18px;
+	}
+	.lok .track-order-details{
+	    font-size: 16px;
+	}
+	.line-trackorder{
+	    left: 50%;
+	}
+	.storetitle .orderitem-price{
+		margin-left: 7%;
+	}
+	.track-tab .nav-link{
+		font-size: 18px;
+	}
+	.track-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+		font-size: 18px;
+	}
+	.track-order-items .otimg{
+		width: 16%;
+	}
+	.track-order-items .storetitle{
+		width: 84%;
+	}
+	/*TRACK PAGE END*/
+	/*ABC PAGE (After outlate selection)*/
+	.pagenav{
+		font-size: 18px; 
+	}
+	.storepad .storetit{
+		font-size: 18px !important;
+		max-width: 360px!important;
+	}
+	.menu-store-description.for-twoline{
+	    max-width: 550px;
+	    -webkit-line-clamp: 2;
+	}
+	.li-img.star-img{
+		margin-bottom: 6px;
+	}
+	.li-img.location-img{
+		margin-right: 5px;
+	}
+	.li-img.clock-img{
+		margin-right: 5px;
+	}
+	.menusearch .menusearch-container {
+	    position: relative;
+	    width: 94%;
+	    display: inline-block;
+	}
+	.menusearch-container input{
+		width: 100%;
+	}
+	.filter{
+		margin-top: 0px;
+		float: 	right;	
+	}
+	.menusearch-icon{
+		right: 9px;
+    	top: 9px;
+	}
+	.filter{
+		margin-left: 0px;
+	}
+	.menusearch {
+    	margin-top: 14px;
+	}
+	.whatsappicon{
+	    right: 11px;
+	}
+	.storedetails li:nth-child(1) {
+    	width: 26%;
+	}
+	.storedetails li:nth-child(2) {
+    	width: 26%;
+	}
+	.storedetails li:nth-child(3) {
+    	width: 26%;
+	}
+	.storedetails li:nth-child(4) {
+    	width: 22%;
+	}
+	li .fav-img{
+		float: right;
+		margin-top: 4px;
+		margin-right: 4px;
+	}
+	.menu-clock-center{
+		text-align: center !important;
+	}
+	.menu-img{
+		width: 100%;
+		height: auto;
+		margin: 6px;
+	}
+	.menuimg {
+    	width: 14%;
+    	float: left;
+	}
+	.menutitle{
+		width: 86%;
+	}
+	.menutitle .otdescription{
+		margin-left: 2%;
+		max-width: 450px;
+	}
+	.menutitle .otname{
+		margin-left: 2%;
+	}
+	.menutitle .p-title{
+        width: 90%;
+        margin-top: 5px;
+    }
+    .menutitle .p-price {
+    	width: 10%;
+	}
+	.menutitle .addbutton{
+		margin-top: 30%;
+	}
+	.heart-img {
+    	height: 17px;
+    	width: 18px;
+    	margin-left: 10px;
+	}
+	.menu-subcatname{
+		margin-left: 15px;
+	}
+	.menu-subcategory{
+	    margin-right: 3px;
+	}
+	.call{
+		margin-top: 12px;
+	}
+	.phone-img{
+		padding-bottom: 6px;
+	}
+	/*ABC PAGE (After outlate selection) END*/	
+	/*HOME PAGE*/
+	.tg-bt {
+    	padding-top: 75px;
+	}
+	.search-container input{
+		margin-top: 12px;
+	}
+	.cat{
+	    margin-top: 12px !important;
+	    margin-bottom: 12px!important;
+	}
+	.offerbanner img {
+    	width: 100%;
+   	 	height: 265px;
+	}
+	.offerbanner button{
+		top: 82%;
+	}
+	.shoptext {
+    	font-size: 16px;
+    	margin-top: 5px;
+	}
+	.otimg {
+    	width: 14%;
+	}
+	.storetitle {
+	    padding-top: 10px;
+	    width: 86%;
+	    max-width: 385px!important;
+	}
+	.otname{
+		font-size: 18px;
+		margin-left: 7%;
+	}
+	.otdescription {
+	    margin-left: 7%;
+	    font-size: 15px;
+	    max-width: 500px;
+	    margin-bottom: 2%;
+	    margin-top: 4px;
+	}
+	p.octime {
+    	margin-left: 7%;
+	}
+	.ratingkm{
+		font-size: 16px;
+	}
+	.octime{
+		font-size: 16px;
+		margin-right: 6%;
+	}
+	.heart-icon{
+		right: 10px;
+    	top: 12px;
+	}
+	.otstar{
+		font-size: 18px;
+	}
+	.iconekm{
+		font-size: 18px;
+		padding-left: 5%;
+	}
+	/*HOME PAGE END*/
+
+
+	/*ADDITEM PAGE*/
+	.outimg {
+    	width: 100%;
+    	height: 300px;
+	}
+	.storetit{
+		font-size: 20px;
+	}
+	.price{
+		font-size: 20px;
+	}
+	.additem-itemdescription{
+		font-size: 18px;
+	}
+	input[type=checkbox], input[type=radio]{
+		height: 18px;
+    	width: 18px;
+	}
+	.alg-label{
+		margin-bottom: 6px;
+		margin-left: 5px;
+		font-size: 16px;
+		padding-top: 2px;
+	}
+	.hr{
+    	margin-block-start: 10px;
+    	margin-block-end: 10px;
+	}
+	/*ADDITEM PAGE END*/
+
+	/*CART PAGE */
+	.cart-img {
+    	width: 14%;
+    	float: left;
+	}
+	.cart-item-title{
+		width: 86%;
+		padding-left: 2%;
+	}
+	.p-title {
+    	width: 80%;
+    	float: left;
+	}
+	.p-price {
+    	width: 20%;
+    	float: left;
+    	padding-right: 0px;
+	}
+	.cart-item-img {
+    	height: auto;
+    	width: 100%;
+	}
+	.customization-box .card-header {
+    	padding: 6px .25rem;
+	}
+	.itemname {
+    	margin-top: 7px;
+    	margin-bottom: 5%;
+    	font-size: 20px;
+	}
+	.p-price .text-center{
+		float: right;
+	}
+	.text-center .deleteicon {
+    	margin-top: 7px;
+    	text-align: center;
+	}
+	.cart-price{
+		font-size: 18px;
+	}
+	.x-style{
+		font-size: 20px;
+	}
+	.cart-add-btn{
+		height: 30px;
+    	width: 90px;
+    	margin-left: 5px;
+	}
+	.container .card-title{
+		font-size: 18px;
+		padding-left: 8px;
+	}
+	.plus {
+    	padding-left: 8px;
+    	width: 22px;
+	}
+	.minus {
+    	padding-right: 5px;
+    	width: 20px;
+	}
+	.number{
+		font-size: 18px;
+	}
+	.bill-title{
+		font-size: 18px;
+		margin-bottom: 12px;
+	}
+	.bill-text{
+		font-size: 15px;
+	}
+	.bill-amount{
+		font-size: 15px;
+	}
+	.address-note{
+		display: block;
+		margin-top: 8px;
+	}
+	.change-address-btn{
+		width: 65px;
+		font-size: 14px;
+	}
+	.cart-item-price{
+		margin-top: 50%;
+		font-size: 18px;
+	}
+	.customization-box {
+    	margin-top: 14%;
+	}
+	.cart-address{
+		font-size: 18px;
+		max-width: 500px!important;
+	}
+	.btn-schedule{
+		font-size: 18px;
+		width: 210px;
+	}
+	.btn-delivernow{
+		font-size: 18px;
+		width: 210px;
+	}
+	.topborder .custom-control-label {
+    	font-size: 16px;
+    	margin-bottom: 2px;
+	}
+	.note{
+		font-size: 18px;
+	}
+	/*CART PAGE END*/
+
+	/*Ordersummary Page*/
+	.ordersummary-img {
+    	width: 17%;
+	}
+	.ordersummary-item-title{
+		width: 83%;
+	}
+	.order-s{
+		font-size: 15px;
+	}
+	.ordersummary-itemname {
+    	margin-top: 4px;
+    	margin-bottom: 3%;
+	}
+	.order-s-mobilenumber{
+		margin-top: 16px;
+	}
+	.order-s-callicon{
+		margin-top: 16px;
+	}
+	.ordersummary-section .bill-text{
+		font-size: 15px;
+	}
+	.ordersummary-section .bill-amount{
+		font-size: 15px;
+	}
+	.tip-card-dis{
+		font-size: 16px;
+	}
+	.proceed-to-pay{
+	    padding: 10px 0px;
+	    margin-top: 30px;
+	}
+	/*Ordersummary page*/
+
+	/*PROFILE PAGE & PREFERENCES PAGE*/
+	.field-name {
+    	font-size: 17px;
+	}
+	.sc-btn-section {
+    	margin-top: 34px;
+	}
+	.sc-btn-section .savebtn{
+		width: 74%;
+	}
+	.sc-btn-section .cancelbtn{
+		width: 74%;
+	}
+	/*PROFILE PAGE & PREFERENCES PAGE*/
+
+	/*ORDER PAGE*/
+	.st-ord-img {
+    	padding-top: 6px;
+     	margin-left: 0%; 
+	}
+	.order-store{
+    	margin-left: -3%;
+	}
+	/*ORDER PAGE END*/
+	/*ORDER HISTORY PAGE*/
+	.modal-header {
+    	padding: 3px 8px;
+	}
+	.rate-store-name {
+	    font-size: 24px;
+	    margin-top: 14px;
+	    margin-bottom: 18px;
+	}
+	.store-name{
+		font-size: 18px;
+	}
+	.order-text{
+		font-size: 15px;
+	}
+	.order-no{
+		font-size: 16px;
+	}
+	.order-history-amount{
+		font-size: 16px;
+	}
+	.order-time-date{
+		margin-bottom: 26px;
+	}
+	.item-name-qty{
+		font-size: 15px;
+	}
+	.bottom-border .reorder-ratefood-btn{
+		width: 50%;
+	}
+	/*ORDER HISTORY PAGE END*/
+
+	/*DELIVERY STATUS PAGE */
+	.for-twoline{	
+    	-webkit-line-clamp: 4;
+    	max-width: 524px;
+	}
+	.comment-section{
+	    margin-top: 11%;
+	}
+	.service-tag-btn{
+		width: 85%;
+	}
+	.service-main-tit{
+		margin-top: 26px;
+	}
+	/*Delivery Status Page END*/
+	
+	/*ENTER MOBILE NUMBE PAGE*/
+	.country-dropdown .intl-tel-input.allow-dropdown {
+    	width: 35% !important;
+    	margin: 0 auto;
+	}
+	.send-btn{
+		width: 35% !important;
+	}
+	/*ENTER MOBILE NUMBE PAGE END*/
+
+	/*LOGIN PAGE*/
+	.login-section .send-btn{
+		width: 44% !important;
+	}
+	.login-section .font-20 {
+    	font-size: 16px !important;
+	}
+	.locat {
+    	padding-right: 12px;
+    	margin-top: -2px;
+    	width: 35px;
+    }
+    .login-section .logo-space {
+    	margin-top: 30%;
+	}
+	/*LOGIN PAGE END*/
+	/*Offer Page*/
+	.combo-title{
+		font-size: 18px;
+	}
+	.tag-line{
+		font-size: 18px;
+	}
+	.offer-tag-line{
+		font-size: 15px;
+		max-width: 185px;
+	}
+	/*Offer Page*/
+
+}
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+	/*MY QRPAGE*/
+	.my-qr-section .col-3-left {
+    	width: 24%;
+	}
+	.my-qr-section .col-9-right {
+    	width: 76%;
+    	margin-left: 14px;
+	}
+	.qr-details{
+		max-width: 350px;
+	}
+	.my-qr-section .myqr-options{
+		right: 	22px;
+	}
+	.my-qr-section .view-delete-btn{
+	    width: 122px;
+    	margin-top: 10px;
+    	margin-bottom: 0px;	
+	}
+	.my-qr-section .myqr-store-name{
+	    margin-bottom: 3px;
+	}
+	/*MY QR PAGE END*/
+	/*TRACK PAGE */
+	.lok .track-order-titles{
+	    font-size: 18px;
+	}
+	.lok .track-order-details{
+	    font-size: 16px;
+	}
+	.line-trackorder{
+	    left: 50%;
+	}
+	.track-tab .nav-link{
+		font-size: 18px;
+	}
+	.track-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+		font-size: 18px;
+	}
+	.card-borders .otimg{
+		width: 20%;
+	}
+	.tab-pane .storetitle{
+		width: 80%;
+	}
+	.tab-pane .otname {
+	    font-size: 16px;
+	    margin-left: 5%;
+	}
+	.tab-pane .orderitem-price{
+		margin-left: 5%;
+		font-size: 15px;
+	}
+	.tab-pane .otdescription{
+	    margin-top: 0;
+    	font-size: 14px;
+	}
+
+	/*TRACK PAGE END*/
+	/*ABC PAGE (After outlate selection)*/
+	.pagenav{
+		font-size: 18px; 
+	}
+	.storepad .storetit{
+		font-size: 18px !important;
+		max-width: 360px!important;
+	}
+	.phone-img {
+    	padding-bottom: 7px;
+	}
+	.menusearch .menusearch-container {
+	    position: relative;
+	    width: 91%;
+	    display: inline-block;
+	}
+	.menusearch-container input{
+		width: 100%;
+	}
+	.filter{
+		margin-top: 0px;
+		float: 	right;	
+	}
+	.menusearch-icon{
+		right: 9px;
+    	top: 9px;
+	}
+	.storedetails li:nth-child(1) {
+    	width: 25%;
+	}
+	.storedetails li:nth-child(2) {
+    	width: 25%;
+	}
+	.storedetails li:nth-child(3) {
+    	width: 28%;
+	}
+	.storedetails li:nth-child(4) {
+    	width: 22%;
+	}
+	li .fav-img{
+		float: right;
+		margin-top: 4px;
+		margin-right: 3px;
+	}
+	.menu-clock-center{
+		text-align: center !important;
+	}
+	li .star-img{
+		margin-bottom: 5px !important;
+    	margin-right: 4px !important;
+	}
+	.menuimg {
+    	width: 16%;
+    }
+    .menutitle{
+    	width: 84%;
+    }
+    .menutitle .addbutton{
+    	margin-top: 30%;
+    }
+    .heart-img {
+    	height: 17px;
+    	width: 18px;
+    	margin-left: 10px;
+	}
+	.menutitle .otname{
+		margin-top: 2px;
+	}
+	.menuimg .menu-img{
+		width: 100%;
+		height: auto;
+		margin: 6px;
+	}
+	.menu-subcategory{
+	    margin-right: 3px;
+	}
+	/*ABC PAGE (After outlate selection) End*/
+	/*Offer Page*/
+	.combo-title{
+		font-size: 18px;
+	}
+	.tag-line{
+		font-size: 18px;
+	}
+	.offer-tag-line{
+		font-size: 15px;
+		max-width: 185px;
+	}
+	/*Offer Page*/
+	
+	/*HOME PAGE*/
+	.tg-bt{
+		padding-top: 75px;
+	}
+	.search-container input{
+		margin-top: 10px;
+	}
+	.wrapper .item{
+		margin-right: 15px;
+	}
+	.offerbanner img{
+		height: 240px;
+	}
+	.offerbanner button{
+		top: 195px; 
+	}
+	.shoptext {
+    	font-size: 16px;
+	}
+	.imgs{
+		height: auto;
+		width: 100%;
+	}
+	.storetitle{
+		padding-left: 0px;
+		width: 84%;
+		padding-top: 12px;
+	}
+	.otimg {
+    	width: 16%;
+	}
+	.heart-icon{
+		right: 10px;
+	}
+	.otdescription {
+	    -webkit-line-clamp: 2;
+	    max-width: 400px;
+	    margin-bottom: 2%;
+	    margin-top: 4px;
+	    font-size: 16px;
+	    margin-left: 5%;
+	}
+	.otname{
+		font-size: 18px;
+		margin-left: 5%;
+	}
+	.octime {
+    	font-size: 16px;
+    	margin-right: 5%;
+	}
+	p.octime {
+    	margin-left: 5%;
+	}
+	.cat{
+		margin-top: 12px !important;
+    	margin-bottom: 12px !important;
+	}
+	.ratingkm {
+    	font-size: 16px;
+	}
+	.iconekm{
+		font-size: 18px;
+		padding-left: 18px !important; 
+	}
+	.otstar{
+		font-size: 18px;
+	}
+	.screenbtn {
+    	margin-top: 18px;
+	}
+	/*HOME PAGE END*/
+
+	/*ADDITEM PAGE*/
+	.outimg {
+    	width: 100%;
+    	height: 300px;
+	}
+	.storetit{
+		font-size: 20px;
+	}
+	.price{
+		font-size: 20px;
+	}
+	.additem-itemdescription{
+		font-size: 18px;
+	}
+	input[type=checkbox], input[type=radio]{
+		height: 18px;
+    	width: 18px;
+	}
+	.alg-label{
+		margin-bottom: 6px;
+		margin-left: 5px;
+		font-size: 16px;
+		padding-top: 2px;
+	}
+	.hr{
+    	margin-block-start: 10px;
+    	margin-block-end: 10px;
+	}
+	/*ADDITEM PAGE END*/
+	/*CART PAGE */
+	.cart-img {
+    	width: 20%;
+    	float: left;
+    	padding-right: 2%;
+	}
+	.cart-item-title{
+		width: 80%;
+		padding-left: 0px;
+	}
+	.p-title {
+    	width: 80%;
+    	float: left;
+	}
+	.p-price {
+    	width: 20%;
+    	float: left;
+    	padding-right: 0px;
+	}
+	.cart-item-img {
+    	height: auto;
+    	width: 100%;
+	}
+	.customization-box .card-header {
+    	padding: 6px .25rem;
+	}
+	.itemname {
+    	margin-top: 7px;
+    	margin-bottom: 7%;
+	}
+	.cart-price{
+		font-size: 18px;
+	}
+	.x-style{
+		font-size: 20px;
+	}
+	.cart-add-btn{
+		height: 30px;
+    	width: 90px;
+    	margin-left: 5px;
+	}
+	.plus {
+    	padding-left: 8px;
+    	width: 22px;
+	}
+	.minus {
+    	padding-right: 5px;
+    	width: 20px;
+	}
+	.number{
+		font-size: 18px;
+	}
+	.bill-title{
+		font-size: 18px;
+		margin-bottom: 12px;
+	}
+	.address-note{
+		display: block;
+		margin-top: 8px;
+	}
+	.change-address-btn{
+		width: 65px;
+		font-size: 14px;
+	}
+	.cart-item-price{
+		margin-top: 40%	;
+		font-size: 18px;
+	}
+	.p-price .text-center{
+		float: right;
+	}
+	.text-center .deleteicon {
+    	margin-top: 7px;
+    	text-align: center;
+	}
+	.customization-box {
+    	margin-top: 18%;
+	}
+	.cart-address{
+		font-size: 18px;
+		max-width: 500px!important;
+	}
+	.btn-schedule{
+		font-size: 18px;
+		width: 210px;
+	}
+	.btn-delivernow{
+		font-size: 18px;
+		width: 210px;
+	}
+	.topborder .custom-control-label {
+    	font-size: 16px;
+    	margin-bottom: 2px;
+	}
+	.note{
+		font-size: 18px;
+	}
+	/*CART PAGE END*/
+
+	/*Ordersummary page*/
+	.ordersummary-itemname{
+		font-size: 18px;
+	}
+	.ordersummary-img{
+		width: 18%
+	}
+	.ordersummary-item-title{
+	    width: 82%;
+	}
+	.order-s{
+		font-size: 15px;
+	}
+	.tip-buttons {
+    	width: 80px;
+    	height: 48px;
+    	font-size: 18px;
+	}
+	.tip {
+    	font-size: 10px;
+	}
+	.proceed-to-pay{
+		padding: 8px 0px;
+		margin-top: 30px; 
+	}
+	.bill-text{
+		font-size: 15px;
+	}
+	.bill-amount{
+		font-size: 15px;
+	}
+	.order-s-mobilenumber{
+    	margin-top: 16px;
+	}
+	.order-s-callicon {
+    	margin-top: 18px;
+	}
+	/*Ordersummary page end*/
+
+	/*PROFILE PAGE & PREFERENCES PAGE*/
+	.field-name {
+    	font-size: 17px;
+	}
+	.sc-btn-section {
+    	margin-top: 34px;
+	}
+	.sc-btn-section .savebtn{
+		width: 74%;
+	}
+	.sc-btn-section .cancelbtn{
+		width: 74%;
+	}
+	/*PROFILE PAGE & PREFERENCES PAGE*/
+
+	/*ORDER PAGE*/
+	.st-ord-img {
+    	padding-top: 6px;
+     	margin-left: 0%; 
+	}
+	.order-store{
+    	margin-left: -3%;
+	}
+	/*ORDER PAGE END*/
+	/*ORDER HISTORY PAGE*/
+	.modal-header {
+    	padding: 3px 8px;
+	}
+	.rate-store-name {
+	    font-size: 24px;
+	    margin-top: 14px;
+	    margin-bottom: 18px;
+	}
+	.store-name{
+		font-size: 18px;
+	}
+	.order-text{
+		font-size: 15px;
+	}
+	.order-no{
+		font-size: 16px;
+	}
+	.order-history-amount{
+		font-size: 16px;
+	}
+	.order-time-date{
+		margin-bottom: 26px;
+	}
+	.item-name-qty{
+		font-size: 15px;
+	}
+	.bottom-border .reorder-ratefood-btn{
+		width: 50%;
+	}
+	/*ORDER HISTORY PAGE END*/
+	/*DELIVERY STATUS PAGE */
+	.for-twoline{	
+    	-webkit-line-clamp: 4;
+	}
+	.comment-section{
+	    margin-top: 11%;
+	}
+	.service-tag-btn{
+		width: 90%;
+	}
+	.service-main-tit{
+		margin-top: 20px;
+	}
+	/*Delivery ststus page end*/
+
+	/*ENTER MOBILE NUMBE PAGE*/
+	.country-dropdown .intl-tel-input.allow-dropdown {
+    	width: 40% !important;
+    	margin: 0 auto;
+	}
+	.send-btn{
+	    font-size: 16px !important;
+	    width: 40% !important;
+	}
+	/*ENTER MOBILE NUMBE PAGE END*/
+
+	/*LOGIN PAGE*/
+	.login-section .send-btn{
+		width: 50% !important;
+	}
+	.login-section .font-20 {
+    	font-size: 16px !important;
+	}
+	.locat {
+    	padding-right: 12px;
+    	margin-top: -2px;
+    	width: 35px;
+	}
+	.login-section .logo-space {
+    	margin-top: 30%;
+	}
+	/*LOGIN PAGE END*/
+}
+@media only screen and (min-width: 501px) and (max-width: 575px)
+{
+	/*MY QRPAGE*/
+	.my-qr-section .col-3-left {
+    	width: 27%;
+	}
+	.my-qr-section .col-9-right {
+    	width: 73%;
+    	margin-left: 14px;
+	}
+	.qr-details{
+		max-width: 350px;
+	}
+	.my-qr-section .myqr-options{
+		right: 	22px;
+	}
+	.my-qr-section .view-delete-btn{
+	    width: 122px;
+    	margin-top: 10px;
+    	margin-bottom: 0px;	
+	}
+	.my-qr-section .myqr-store-name{
+	    margin-bottom: 3px;
+	}
+	/*MY QR PAGE END*/
+
+	/*TRACK PAGE */
+	.lok .track-order-titles{
+	    font-size: 18px;
+	}
+	.lok .track-order-details{
+	    font-size: 16px;
+	}
+	.line-trackorder{
+	    left: 50%;
+	}
+	.track-tab .nav-link{
+		font-size: 18px;
+	}
+	.track-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+		font-size: 18px;
+	}
+	.tab-pane .orderitem-price{
+		margin-left: 7%;
+		font-size: 15px;
+	}
+	.tab-pane .otdescription{
+	    margin-top: 0;
+    	font-size: 14px;
+	}
+	/*TRACKORDER PAGE END*/
+	/*ABC PAGE (After outlate selection)*/
+	.pagenav{
+		font-size: 18px; 
+	}
+	.storepad .storetit{
+		font-size: 18px !important;
+		max-width: 360px!important;
+	}
+	.li-img.star-img{
+		margin-bottom: 5px;
+		margin-right:3px;
+	}
+	.storedetails li:nth-child(1) {
+    	width: 23%;
+	}
+	.storedetails li:nth-child(2) {
+    	width: 27%;
+	}
+	.storedetails li:nth-child(3) {
+    	width: 30%;
+	}
+	.storedetails li:nth-child(4) {
+    	width: 20%;
+	}
+	.menu-clock-center{
+		text-align: center !important;
+	}
+	li .fav-img{
+		float: right;
+		margin-top: 4px;
+	}
+	.menusearch .menusearch-container {
+	    position: relative;
+	    width: 90%;
+	    display: inline-block;
+	}
+	.menusearch .menusearch-container input{
+		width: 100%;
+	}
+	.filter{
+	    float: 	right;
+	    margin-top: 0px;
+	}
+	.mobileno{
+	    font-size: 17px;
+	}
+	.menusearch-container .menusearch-icon{
+		right: 9px;
+    	top: 9px;
+	}
+	.menuimg {
+    	width: 18%;
+    }
+    .menutitle{
+    	width: 82%;
+    }
+    .menutitle .otname{
+    	margin-left: 3%;
+    	margin-top: 3px;
+    }
+    .menutitle .otdescription{
+    	margin-left: 3%;
+    }
+    .menutitle .addbutton{
+    	margin-top: 20%;
+    }
+    .menu-subcategory{
+    	margin-right: 3px;
+    }
+    .menutitle .heart-img{
+    	width: 17px;
+    	height: 16px;
+    	margin-left: 4px;
+    }
+    .menuimg .menu-img{
+    	width: 100%;
+    	height: auto;
+    	margin: 6px;
+    }
+	/*ABC PAGE (After outlate selection) END*/
+	/*Home PAGE*/
+	.tg-bt{
+		padding-top: 14%;
+	}
+	.wrapper .item{
+		margin-right: 12px;
+	}
+	.offerbanner img{
+		height: 240px;
+	}
+	.offerbanner button{
+		top: 195px; 
+	}
+	.shoptext {
+    	font-size: 16px;
+	}
+	.otimg {
+	    width: 23%;
+	    float: left;
+	}
+	.storetitle {
+    	padding-top: 10px;
+    	width: 77%;
+    	float: left;
+	}
+	.imgs{
+		height: auto;
+		width: 100%;
+	}
+	.heart-icon{
+		right: 10px;
+	}
+	.otname{
+		margin-left: 7%;
+	}
+	.otdescription {
+	    -webkit-line-clamp: 2;
+	    max-width: 295px;
+	    margin-bottom: 10px;
+	    margin-top: 5px;
+	    font-size: 15px;
+	    margin-left: 7%;
+	}
+	p.octime {
+    	margin-left: 7%;
+	}
+	.octime {
+    	margin-right: 8%;
+	}
+	.otstar {
+    	font-size: 17PX;
+	}
+	.iconekm{
+		padding-left: 8%;
+		font-size: 17px; 
+	}
+	/*ADDITEM PAGE*/
+	.outimg {
+    	width: 100%;
+    	height: 300px;
+	}
+	input[type=checkbox], input[type=radio]{
+		height: 18px;
+    	width: 18px;
+	}
+	.alg-label{
+		margin-bottom: 6px;
+		margin-left: 5px;
+		font-size: 16px;
+		padding-top: 2px;
+	}
+	.hr{
+    	margin-block-start: 10px;
+    	margin-block-end: 10px;
+	}
+	/*ADDITEM PAGE END*/
+	/*CART PAGE */
+	.cart-img {
+    	width: 20%;
+    	float: left;
+	}
+	.cart-item-title{
+		width: 80%;
+		padding-left: 2%;
+	}
+	.p-price {
+    	width: 26%;
+    	float: left;
+    	padding-right: 0px;
+	}
+	.p-title {
+    	width: 74%;
+    	float: left;
+	}
+	.cart-item-img {
+    	height: auto;
+    	width: 100%;
+	}
+	.customization-box .card-header {
+    	padding: 6px .25rem;
+	}
+	.itemname {
+    	margin-top: 7px;
+    	margin-bottom: 10%;
+	}
+	.cart-item-price{
+		margin-top: 56%;
+	}
+	.p-price .text-center{
+		float: right;
+	}
+	.text-center .deleteicon {
+    	margin-top: 7px;
+    	text-align: center;
+	}
+	.customization-box {
+    	margin-top: 20%;
+	}
+	.cart-address{
+		font-size: 16px;
+		max-width: 450px!important;
+	}
+	.btn-schedule{
+		font-size: 18px;
+		width: 172px;
+	}
+	.btn-delivernow{
+		font-size: 18px;
+		width: 172px;
+	}
+	.topborder .custom-control-label {
+    	font-size: 16px;
+    	margin-bottom: 2px;
+	}
+	.note{
+		font-size: 16px;
+	}
+	.change-address-btn{
+		width: 54px;
+	}
+	/*CART PAGE END*/
+	/*Ordersummary page*/
+	.order-s-callicon{
+	    margin-top: 18px;
+	}
+	.order-s-mobilenumber{	
+    	margin-top: 16px;
+	}
+	.proceed-to-pay{
+		padding:8px 0px;
+	}
+	/*OrderSummary page*/
+
+	/*PROFILE PAGE & PREFERENCES PAGE*/
+	.field-name {
+    	font-size: 17px;
+	}
+	.sc-btn-section {
+    	margin-top: 34px;
+	}
+	.sc-btn-section .savebtn{
+		width: 74%;
+	}
+	.sc-btn-section .cancelbtn{
+		width: 74%;
+	}
+	/*PROFILE PAGE & PREFERENCES PAGE  END*/
+
+	/*ORDER PAGE*/
+	.line {
+    	top: 3px;
+    	left: 51%;
+	}
+	/*ORDER PAGE End*/
+	/*ORDER HISTORY PAGE*/
+	.modal-header {
+    	padding: 5px 8px;
+    }
+	/*ORDER HISTORY PAGE END*/
+
+	/*DELIVERY STATUS PAGE */
+	.for-twoline{	
+    	-webkit-line-clamp: 4;
+	}
+	.font-20{
+		font-size: 18px;
+	}
+	.comment-section{
+	    margin-top: 15%;
+	}
+	.service-tag-btn{
+		width: 94%;
+	}
+	/*Delivery ststus page end*/
+
+	/*LOGIN PAGE*/
+	.login-section .send-btn{
+		width: 80% !important;
+	}
+	.login-section .font-20 {
+    	font-size: 16px !important;
+	}
+	.login-section .logo-space {
+    	margin-top: 40%;
+	}
+	/*LOGIN PAGE END*/
+
+}
+@media only screen and (min-width: 470px) and (max-width: 500px)
+{
+	/*MY QRPAGE*/
+	.my-qr-section .col-3-left {
+    	width: 27%;
+	}
+	.my-qr-section .col-9-right {
+    	width: 73%;
+    	margin-left: 14px;
+	}
+	.qr-details{
+		max-width: 287px;
+		font-size: 14px;
+	}
+	.my-qr-section .myqr-options{
+		right: 	22px;
+	}
+	.my-qr-section .view-delete-btn{
+	    width: 110px;
+    	margin-top: 10px;
+    	margin-bottom: 0px;	
+	}
+	.my-qr-section .myqr-store-name{
+	    margin-bottom: 3px;
+	    font-size: 16px;
+	}
+	/*MY QR PAGE END*/
+
+	.lok .track-order-details{
+	    font-size: 14px;
+	}
+	.line-trackorder{
+	    left: 52%;
+	}
+	.tab-pane .orderitem-price{
+		margin-left: 7%;
+		font-size: 14px;
+	}
+	.tab-pane .otdescription{
+	    margin-top: 0;
+    	font-size: 14px;
+	}
+	/*ABC PAGE (After outlate selection)*/
+	.pagenav{
+		font-size: 18px; 
+	}
+	.storepad .storetit{
+		font-size: 18px !important;
+		max-width: 360px!important;
+	}
+	.li-img.star-img{
+		margin-bottom: 5px;
+		margin-right:3px;
+	}
+	.storedetails li:nth-child(1) {
+    	width: 23%;
+	}
+	.storedetails li:nth-child(2) {
+    	width: 27%;
+	}
+	.storedetails li:nth-child(3) {
+    	width: 30%;
+	}
+	.storedetails li:nth-child(4) {
+    	width: 20%;
+	}
+	.menu-clock-center{
+		text-align: center !important;
+	}
+	li .fav-img{
+		float: right;
+		margin-top: 4px;
+	}
+	.menusearch .menusearch-container {
+	    position: relative;
+	    width: 88%;
+	    display: inline-block;
+	}
+	.menusearch .menusearch-container input{
+		width: 100%;
+	}
+	.menusearch .menusearch-icon{
+		right: 9px;
+    	top: 9px;
+	}
+	.menuimg {
+    	width: 18%;
+    }
+    .menutitle{
+    	width: 82%;
+    }
+    .menutitle .otname{
+    	margin-left: 3%;
+    	margin-top: 3px;
+    }
+    .menutitle .otdescription{
+    	margin-left: 3%;
+    }
+    .menutitle .addbutton{
+    	margin-top: 20%;
+    }
+    .menu-subcategory{
+    	margin-right: 3px;
+    }
+    .menutitle .heart-img{
+    	width: 17px;
+    	height: 16px;
+    	margin-left: 4px;
+    }
+    .menuimg .menu-img{
+    	width: 100%;
+    	height: auto;
+    	margin: 6px;
+    }
+    .whatsappicon{
+    	right: 12px;
+    }
+	/*ABC PAGE (After outlate selection) END*/
+	
+	/*LOGIN PAGE*/
+	.login-section .send-btn{
+		width: 80% !important;
+	}
+	.login-section .font-20 {
+    	font-size: 16px !important;
+	}
+	.login-section .logo-space {
+    	margin-top: 45%;
+	}
+	/*LOGIN PAGE END*/
+
+	/*HOME PAGE*/
+	.tg-bt{
+		padding-top: 75px;
+	}
+	.search-container input{
+		margin-top: 10px;
+	}
+	.cat {
+    	margin-top: 12px !important;
+    	margin-bottom: 12px!important;
+	}
+	.otimg {
+    	width: 23%;
+    	float: left;
+	}
+	.storetitle {
+	    padding-top: 10px;
+	    padding-left: 0px;
+	    width: 77%;
+	}
+	.imgs {
+	   width: 100%;
+	   height: auto;
+	}
+	.otname {
+    	margin-left: 7%;
+	}
+	.otdescription {
+	    font-size: 15px;
+	    margin-bottom: 10px;
+	    margin-top: 5px;
+	    -webkit-line-clamp: 2;
+	    max-width: 289px;
+	    margin-left: 7%;
+	}
+	p.octime {
+    	margin-left: 7%;
+	}
+	.shoptext {
+    	font-size: 16px;
+	}
+	.heart-icon {
+    	right: 10px;
+    	top: 10px;
+	}
+	.octime{
+		font-size: 16px;
+		margin-right: 8%;
+	}
+	.iconekm {
+    	padding-left: 5%;
+    	font-size: 17px;
+	}
+	.otstar{
+		font-size: 17px;
+	}
+	.ratingkm{
+		font-size: 16px;
+	}
+	/*HOME PAGE END*/
+	/*ADDITEM PAGE*/
+	.outimg {
+    	width: 100%;
+    	height: 272px;
+	}
+	input[type=checkbox], input[type=radio]{
+		height: 18px;
+    	width: 18px;
+	}
+	.alg-label{
+		margin-bottom: 6px;
+		margin-left: 5px;
+		font-size: 16px;
+		padding-top: 2px;
+	}
+	/*ADDITEM PAGE END*/
+
+	/*CART PAGE */
+	.cart-img {
+    	width: 20%;
+    	float: left;
+	}
+	.cart-item-title{
+		width: 80%;
+		padding-left: 2%;
+	}
+	.p-price {
+    	width: 26%;
+    	float: left;
+    	padding-right: 0px;
+	}
+	.p-title {
+    	width: 74%;
+    	float: left;
+	}
+	.cart-item-img {
+    	height: auto;
+    	width: 100%;
+	}
+	.customization-box .card-header {
+    	padding: 6px .25rem;
+	}
+	.itemname {
+    	margin-top: 7px;
+    	margin-bottom: 26px;
+	}
+	.cart-item-price{
+		margin-top: 28px;
+	}
+	.customization-box {
+    	margin-top: 20%;
+	}
+	.p-price .text-center{
+		float: right;
+	}
+	.text-center .deleteicon {
+    	margin-top: 7px;
+    	text-align: center;
+	}
+	.cart-address{
+		font-size: 16px;
+		max-width: 422px!important;
+	}
+	.btn-schedule{
+		font-size: 16px;
+		width: 152px;
+	}
+	.btn-delivernow{
+		font-size: 16px;
+		width: 152px;
+	}
+	.topborder .custom-control-label {
+    	font-size: 16px;
+    	margin-bottom: 2px;
+	}
+	.note{
+		font-size: 16px;
+	}
+	
+	.change-address-btn{
+		width: 54px;
+	}
+	.bill-text{
+		font-size: 15px;
+	}
+	.bill-amount{
+		font-size: 15px;
+	}
+	/*CART PAGE END*/
+
+	/*ORDERSUMMARY PAGE*/
+	.order-s-mobilenumber{
+		margin-top: 4%;
+	}
+	.order-s-callicon{
+		margin-top: 4.3%;
+	}
+	.proceed-to-pay{
+		padding: 8px 0px;
+	}
+	/*ORDERSUMMARY PAGE END */
+
+	/*PROFILE PAGE & PREFERENCES PAGE*/
+	.field-name {
+    	font-size: 17px;
+	}
+	/*PROFILE PAGE & PREFERENCES PAGE*/
+
+	/*ORDER HISTORY PAGE*/
+	.modal-header {
+    	padding: 3px 8px;
+	}
+	/*ORDER HISTORY PAGE END*/
+
+	/*delivery status page*/
+	.for-twoline{	
+    	-webkit-line-clamp: 4;
+	}
+	.font-20{
+		font-size: 18px;
+	}
+	.comment-section{
+	    margin-top: 22%;
+	}
+	/*DELIVERY STATUS PAGE END*/
+
+}
+@media only screen and (min-width: 415px) and (max-width: 469px)
+{
+	/*MY QRPAGE*/
+	.my-qr-section .col-3-left {
+    	width: 27%;
+	}
+	.my-qr-section .col-9-right {
+    	width: 73%;
+    	margin-left: 14px;
+	}
+	.qr-details{
+		max-width: 287px;
+		font-size: 14px;
+	}
+	.my-qr-section .myqr-options{
+		right: 	22px;
+	}
+	.my-qr-section .view-delete-btn{
+    	margin-top: 10px;
+    	margin-bottom: 0px;	
+	}
+	.my-qr-section .myqr-store-name{
+	    margin-bottom: 3px;
+	    font-size: 16px;
+	}
+	.my-qr-section .whitebox{
+		padding: 0px;
+	}
+	/*MY QR PAGE END*/
+	/*TRACK ORDER PAE*/
+	.lok .track-order-details{
+	    font-size: 14px;
+	}
+	.line-trackorder{
+	    left: 58%;
+	}
+	.tab-pane .orderitem-price{
+		margin-left: 7%;
+		font-size: 14px;
+	}
+	.tab-pane .otdescription{
+	    margin-top: 0;
+    	font-size: 14px;
+	}
+	/*TRACK ORDER PAGE END*/
+	/*ABC PAGE (After outlate selection)*/
+	.pagenav{
+		font-size: 18px; 
+	}
+	.timekm{
+		font-size: 15px;
+	}
+	.call{
+		margin-top: 12px;
+	}
+	.storepad .storetit{
+		font-size: 18px !important;
+		max-width: 360px!important;
+	}
+	.li-img.star-img{
+		margin-bottom: 5px;
+		margin-right:3px;
+	}
+	.storedetails li:nth-child(1) {
+    	width: 23%;
+	}
+	.storedetails li:nth-child(2) {
+    	width: 27%;
+	}
+	.storedetails li:nth-child(3) {
+    	width: 35%;
+	}
+	.storedetails li:nth-child(4) {
+    	width: 15%;
+	}
+	.menu-clock-center{
+		text-align: center !important;
+	}
+	li .fav-img{
+		float: right;
+		margin-top: 4px;
+	}
+	.menusearch-container {
+	    position: relative;
+	    width: 88%;
+	    display: inline-block;
+	}
+	.menusearch .menusearch-container input{
+		width: 100%;
+	}
+	.filter{
+		margin-left: 4px;
+	    float: right;
+    	margin-top: 0px;
+	}
+	.menusearch-icon{
+		right: 9px;
+	}
+	.menuimg {
+    	width: 18%;
+    }
+    .menutitle{
+    	width: 82%;
+    }
+    .menutitle .otname{
+    	margin-left: 3%;
+    	margin-top: 3px;
+    }
+    .menutitle .otdescription{
+    	margin-left: 3%;
+    }
+    .menutitle .addbutton{
+    	margin-top: 20%;
+    }
+    .menu-subcategory{
+    	margin-right: 3px;
+    }
+    .menutitle .heart-img{
+    	width: 17px;
+    	height: 16px;
+    	margin-left: 4px;
+    }
+    .menuimg .menu-img{
+    	width: 100%;
+    	height: auto;
+    	margin: 6px;
+    }
+    .menu-store-description.for-twoline{
+	    max-width: 340px;
+	    font-size: 15px;
+	}
+	/*ABC PAGE (After outlate selection) END*/
+	/*HOME PAGE*/
+	.tg-bt{
+		padding-top: 75px;
+	}
+	.searchbar-section{
+		margin-top: 7px;
+	}
+	.search-icon{
+		right: 10px;
+    	top: 17px;
+	}
+	.cat{
+		margin-bottom: 12px !important;
+		margin-top: 12px !important;
+	}
+	.offerbanner button{
+		right: 4px;
+	}
+	.otimg {
+    	width: 24%;
+    	float: left;
+	}
+	.storetitle {
+    	padding-top: 10px;
+    	padding-left: 0px; 
+    	width: 76%;
+	}
+	.imgs {
+    	height: auto;
+    	width: 100%;
+    	margin: 10px;
+    	border-radius: 6px;
+	}
+	.otname {
+    	max-width: 210px!important;
+   		margin-left: 7%;
+	}
+	.shoptext{
+		font-size: 16px;
+	}
+	.heart-icon{
+		right: 10px;
+    	top: 10px;
+	}
+	.otdescription {
+	    font-size: 16px;
+	    margin-bottom: 4px;
+	    margin-top: 5px;
+	    margin-left: 7%;
+	}
+	.octime{
+		font-size: 16px;
+	}
+	p.octime {
+    	margin-left: 7%;
+	}
+	.iconekm {
+    	padding-left: 14px !important;
+    	font-size: 17px;
+	}
+	.otstar{
+		font-size: 17px;
+	}
+	.ratingkm{
+		font-size: 16px;
+	}
+	/*HOME PAGE END*/
+	/*ADDITEM PAGE*/
+	input[type=checkbox], input[type=radio]{
+		height: 18px;
+    	width: 18px;
+	}
+	.alg-label{
+		margin-bottom: 6px;
+		margin-left: 5px;
+		font-size: 16px;
+		padding-top: 2px;
+	}
+	/*ADDITEM PAGE END*/
+
+	/*CART PAGE */
+	.cart-item-img {
+    	height: auto;
+    	width: 100%;
+	}
+	.itemname {
+    	margin-top: 7px;
+    	margin-bottom: 20px;
+	}
+	.cart-item-price{
+		margin-top: 22px;
+	}
+	.customization-box {
+    	margin-top: 87px;
+	}
+	.btn-schedule{
+		font-size: 16px;
+		width: 136px;
+	}
+	.btn-delivernow{
+		font-size: 16px;
+		width: 136px;
+	}
+	.topborder .custom-control-label {
+    	font-size: 16px;
+    	margin-bottom: 2px;
+	}
+	.note{
+		font-size: 16px;
+	}
+	.cart-address{
+		font-size: 16px;
+		max-width: 400px!important;
+	}
+	.change-address-btn{
+		width: 54px;
+	}
+	.cart-img{
+		width: 20%;
+	}
+	.cart-item-title{
+		width: 80%;
+	}
+	.p-title{
+		width: 74%;
+	}
+	.p-price {
+    	width: 26%;
+    	padding-right: 0px;
+	}
+	/*CART PAGE END*/
+	/*Order summary page*/
+	.proceed-to-pay{
+		padding: 8px 0px;
+	}
+	/*ordersummary page end*/
+
+	/*PROFILE PAGE & PREFERENCES PAGE*/
+	.field-name {
+    	font-size: 17px;
+	}
+	/*PROFILE PAGE & PREFERENCES PAGE*/
+
+	/*ORDER HISTORY PAGE */
+	.modal-header {
+    	padding: 3px 8px;
+    }	
+	/*ORDER HISTORY PAGE END*/
+
+	/*delivery status page*/
+	.for-twoline{	
+    	-webkit-line-clamp: 4;
+	}
+	.font-20{
+		font-size: 18px;
+	}
+	.comment-section{
+	    margin-top: 22%;
+	}
+	/*DELIVERY STATUS PAGE END*/
+
+	/*LOGIN PAGE*/
+	.login-section .send-btn{
+		width: 70% !important;
+	}
+	.login-section .font-20 {
+    	font-size: 16px !important;
+	}
+	.login-section .logo-space {
+    	margin-top: 40%;
+	}
+	/*LOGIN PAGE END*/
+
+	/*ABC PAGE (after select outlate)*/
+
+	/*.storetit{
+		font-size: 18px;
+	    max-width: 286px!important;
+	}*/
+	
+}
+@media only screen and (min-width: 376px) and (max-width: 414px)
+{
+	/*MY QR PAGE*/
+	.my-qr-section .whitebox{
+		padding: 0px;
+	}
+	.my-qr-section .col-9-right {
+    	margin-left: 3%;
+	}
+	.my-qr-section .myqr-options{
+		right: 14px;
+		top: 19px;
+	}
+	/*MY QR PAGE END*/
+	/*TRACK ORDER PAGE */
+	.lok .track-order-details{
+	    font-size: 14px;
+	}
+	.line-trackorder{
+	    left: 61%;
+	}
+	.tab-pane .orderitem-price{
+		margin-left: 7%;
+		font-size: 14px;
+	}
+	.tab-pane .otdescription{
+	    margin-top: 0;
+    	font-size: 14px;
+	}
+	/*TRACK ORDER PAGE END*/
+	/*ABC PAGE (After outlate selection)*/
+	.pagenav{
+		font-size: 18px; 
+	}
+	.timekm{
+		font-size: 15px;
+	}
+	.call{
+		margin-top: 12px;
+	}
+	.storepad .storetit{
+		font-size: 18px !important;
+		max-width: 360px!important;
+	}
+	.li-img.star-img{
+		margin-bottom: 5px;
+		margin-right:3px;
+	}
+	.storedetails li:nth-child(1) {
+    	width: 23%;
+	}
+	.storedetails li:nth-child(2) {
+    	width: 27%;
+	}
+	.storedetails li:nth-child(3) {
+    	width: 35%;
+	}
+	.storedetails li:nth-child(4) {
+    	width: 15%;
+	}
+	.menu-clock-center{
+		text-align: center !important;
+	}
+	li .fav-img{
+		float: right;
+		margin-top: 4px;
+	}
+	.menusearch-container {
+	    position: relative;
+	    width: 88%;
+	    display: inline-block;
+	}
+	.menusearch .menusearch-container input{
+		width: 100%;
+	}
+	.filter{
+		margin-left: 2px;
+	    float: right;
+    	margin-top: 0px;
+	}
+	.menusearch-icon{
+		right: 9px;
+	}
+	.menuimg {
+    	width: 22%;
+    }
+    .menutitle{
+    	width: 78%;
+    }
+    .menutitle .otname{
+    	margin-left: 4%;
+    	margin-top: 3px;
+    }
+    .menutitle .otdescription{
+    	margin-left: 4%;
+    }
+    .menutitle .addbutton{
+    	margin-top: 20%;
+    	width: 60px;
+    }
+    .menu-subcategory{
+    	margin-right: 3px;
+    }
+    .menutitle .heart-img{
+    	width: 17px;
+    	height: 16px;
+    	margin-left: 4px;
+    }
+    .menuimg .menu-img{
+    	width: 100%;
+    	height: auto;
+    	margin: 6px;
+    }
+    .menu-store-description.for-twoline{
+	    max-width: 340px;
+	    font-size: 15px;
+	}
+	.menusearch{
+		margin-top: 12px;
+	}
+	/*ABC PAGE (After outlate selection) END*/
+	.heart-icon{
+		right: 9px;
+    	top: 13px;
+	}
+	.cat{
+		margin-top: 12px !important;
+    	margin-bottom: 12px!important;
+	}
+	.shoptext{
+		font-size: 15px;
+	}
+	.otdescription{
+		margin-top: 5px;
+		margin-bottom: 10px; 
+	}
+	.octime{
+		margin-right: 16px;
+	}
+	.iconekm{
+		margin-left: 10px !important;
+	}
+	.otname{
+		padding-top: 2px;
+	}
+	/*HOME PAGE END*/
+
+	/*ADDITEM PAGE*/
+	input[type=checkbox], input[type=radio]{
+		height: 15px;
+    	width: 15px;
+	}
+	.alg-label{
+		margin-bottom: 4px;
+		margin-left: 3px;
+	}
+	/*ADDITEM PAGE END*/
+
+	/*CART PAGE*/
+	.itemname{
+		font-size: 18px;
+	}
+	.itemname {
+    	margin-top: 4px;
+    	margin-bottom: 20px;
+	}
+	.cart-item-price{
+		margin-top: 20px;
+	}
+	.p-price{
+		padding-right: 0px;
+	}
+	.cart-price{
+		font-size: 16px;
+	}
+	.x-style{
+		font-size: 18px;
+	}
+	.bill-text{
+		font-size: 14px;
+	}
+	.bill-amount{
+		font-size: 14px;
+	}
+	.cart-add-btn {
+    	height: 25px;
+    	width: 68px;
+	}
+	.cart-item-img {
+    	height: 82px;
+    	width: 90px;
+	}
+	.bill-title{
+		font-size: 18px;
+	}
+	.customization-box{
+		margin-top: 88px;
+	}
+	.topborder .custom-control-label {
+    	font-size: 16px;
+    	padding-top: 1px;
+	}
+	.cart-address{
+		max-width: 387px!important;
+	}
+	/*CART PAGE END*/
+
+	/*ORDER HISTORY PAGE*/
+	.modal-body .fa{
+		font-size: 48px;
+	}
+	.modal-header {
+    	padding: 3px 7px;
+	}
+	.rate-store-name{
+		margin-bottom: 10px;
+	}
+	/*ORDER HISTORY PAGE END*/
+	/*DELIVERY STATUS PAGE */
+	.for-twoline{	
+    	-webkit-line-clamp: 4;
+	}
+	.font-20{
+		font-size: 18px;
+	}
+	.comment-section{
+	    margin-top: 22%;
+	}
+	.service-tag-btn {
+    	padding: 5px 4px;
+       	font-size: 15px;
+	}
+	.tit-space{
+		margin-top: 40px;
+	}
+	/*DELIVERY STATUS PAGE END*/
+
+	/*LOGIN PAGE*/
+	.login-section .send-btn{
+		width: 80% !important;
+	}
+	.login-section .logo-space {
+    	margin-top: 40%;
+	}
+	/*LOGIN PAGE END*/
+	
+	.bt-left-space {
+    	margin-left: 28px;
+	}
+	/*.fevicon{
+		padding-left: 34px;
+    	padding-bottom: 4px;
+	}*/
+	/*.menusearch{
+		margin-top: 14px;
+	}*/
+	/*.call{
+		margin-top: 14px;
+	}*/
+	/*.timekm{
+		font-size: 18px;
+	}*/
+	/*.icons{
+		padding-left: 38px;
+		font-size: 20px;
+	}*/
+	/*.whatsappicon{
+		right: 8px;
+	}*/
+	/*.menusearch-icon {
+		right: 70px;
+	}*/
+	.pagetitle {
+    	padding-left: 42px !important;
+    }
+    .delivery-title {
+    	padding-left: 114px !important;
+    	margin-top: 8px;
+	}
+	.offer-title{
+		padding-left: 130px !important;
+   	 	margin-top: 8px;
+	}
+	.order-history-title{
+    	padding-left: 126px !important;
+    	margin-top: 8px;
+	}
+	/*select Address page */
+	.add-address-title{
+		padding-left: 100px !important;
+	}
+	.options{
+		left: 164px;
+		top: 17px;
+	}
+
+}
+
+@media (max-width: 375px) 
+{
+	/*MY QR PAGE*/
+	.my-qr-section .whitebox{
+		padding: 0px;
+	}
+	.my-qr-section .col-9-right {
+    	margin-left: 3%;
+	}
+	.my-qr-section .myqr-options{
+		right: 14px;
+		top: 19px;
+	}
+	/*MY QR PAGE END*/
+	.delivry-boy{
+	    font-size: 14px;
+	    width: 174px;
+	}
+	.tab-pane .orderitem-price{
+		margin-left: 8%;
+		font-size: 14px;
+	}
+	.login-section .logo-space {
+    	margin-top: 40%;
+	}
+	.modal-header .close {
+   		padding: 15px 3px;
+   	}
+   	/*Delivery ststus page*/
+   	.for-twoline{	
+    	-webkit-line-clamp: 4;
+	}
+	.font-20{
+		font-size: 18px;
+	}
+	.service-tag-btn {
+	    padding: 5px 3px;
+	    font-size: 14px;
+	}
+	/*DELIVERY STATUS PAGE END*/
+	/*ABC PAGE (After outlate selection)*/
+	.pagenav{
+		font-size: 18px; 
+	}
+	.timekm{
+		font-size: 15px;
+	}
+	.call{
+		margin-top: 12px;
+	}
+	.storepad .storetit{
+		font-size: 18px !important;
+		max-width: 360px!important;
+	}
+	.li-img.star-img{
+		margin-bottom: 5px;
+		margin-right:3px;
+	}
+	.storedetails li:nth-child(1) {
+    	width: 23%;
+	}
+	.storedetails li:nth-child(2) {
+    	width: 27%;
+	}
+	.storedetails li:nth-child(3) {
+    	width: 35%;
+	}
+	.storedetails li:nth-child(4) {
+    	width: 15%;
+	}
+	.menu-clock-center{
+		text-align: center !important;
+	}
+	li .fav-img{
+		float: right;
+		margin-top: 4px;
+	}
+	.menusearch-container {
+	    position: relative;
+	    width: 88%;
+	    display: inline-block;
+	}
+	.menusearch .menusearch-container input{
+		width: 100%;
+	}
+	.filter{
+		margin-left: 0px;
+	    float: right;
+    	margin-top: 0px;
+	}
+	.menusearch-icon{
+		right: 9px;
+	}
+	.menuimg {
+    	width: 22%;
+    }
+    .menutitle{
+    	width: 78%;
+    }
+    .menutitle .otname{
+    	margin-left: 4%;
+    	margin-top: 3px;
+    }
+    .menutitle .otdescription{
+    	margin-left: 4%;
+    }
+    .menutitle .addbutton{
+    	margin-top: 20%;
+    	width: 60px;
+    }
+    .menu-subcategory{
+    	margin-right: 3px;
+    }
+    .menutitle .heart-img{
+    	width: 17px;
+    	height: 16px;
+    	margin-left: 4px;
+    }
+    .menuimg .menu-img{
+    	width: 100%;
+    	height: auto;
+    	margin: 6px;
+    }
+    .menu-store-description.for-twoline{
+	    max-width: 340px;
+	    font-size: 15px;
+	}
+	.menusearch{
+		margin-top: 12px;
+	}
+	/*ABC PAGE (After outlate selection) END*/	
+	.login-section .font-20{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 322px) and (max-width: 374px) 
+{	
+	/*Home Page*/
+	.imgs {
+    	height: auto;
+    	width: 100%;
+    	margin: 6px;
+	    border-radius: 6px;
+	}
+	.otimg {
+    	width: 30%;
+    	float: left;
+	}
+	.storetitle {
+    	width: 70%;
+    	padding-top: 2%;
+	}
+	.otname{
+		margin-left: 6%;
+		font-size: 16px;
+		max-width: 200px!important;
+	}
+	.otdescription {
+    	margin-left: 6%;
+   		font-size: 14px;
+    	max-width: 210px !important;
+    	margin-bottom: 5px;
+    	margin-top: 5px;
+	}
+	.octime {
+    	font-size: 14px;
+    	margin-right: 4%;
+	}
+	p.octime{
+		margin-left: 6%;
+	}
+	.ratingkm {
+    	font-size: 14px;
+    }
+    .iconekm {
+    	padding-left: 4%;
+	}
+	.otstar {
+    	font-size: 15px;
+	}	
+	/*Home page End*/
+	.pagetitle {
+    	padding-left: 20px !important;
+	}
+	
+	/*CART PAGE*/
+	.itemname{
+		font-size: 16px;
+	}
+	.itemname {
+    	margin-top: 4px;
+    	margin-bottom: 15px;
+	}
+	.cart-price{
+		font-size: 15px;
+	}
+	.x-style{
+		font-size: 16px;
+	}
+	.bill-text{
+		font-size: 14px;
+	}
+	.bill-amount{
+		font-size: 14px;
+	}
+	.bottomborder .bill-title{
+    	margin-bottom: 5px;
+	}
+	.cart-add-btn {
+    	height: 25px;
+    	width: 68px;
+	}
+	.cart-item-img {
+    	height: 75px;
+    	width: 75px;
+	}
+	.bill-title{
+		font-size: 16px;
+	}
+	/*CART PAGE END*/
+	/*DELIVERY STATUS PAGE*/
+	.for-twoline{	
+    	-webkit-line-clamp: 4;
+	}
+	.font-20{
+		font-size: 18px;
+	}
+	.service-tag-btn {
+	    padding: 5px 3px;
+	    font-size: 14px;
+	}
+	/*DELIVERY STATUS PAGE END*/
+
+
+}
+@media(max-width: 321px){
+	.login-section .font-20{
+		font-size: 16px;
+	}
+
+	/*HOME PAGE */
+	i.fa.fa-search {
+    	font-size: 18px;
+	}
+	.search-icon{
+		top: 16px
+	}
+	.search-container input{
+		height: 36px;
+	}
+	.offerbanner button{
+		right: 2px;
+	}
+	.offerbanner label{
+		left: 0px;
+	}
+	.imgs {
+    	height: auto;
+    	width: 100%;
+    	margin: 6px;
+	}
+	.otname{
+		font-size: 14px !important;
+    	margin-left: 8%;
+    	max-width: 150px!important;
+	}
+	.otdescription{
+		margin-left: 8%;
+    	font-size: 12px;
+    	margin-bottom: 3px;
+    	margin-top: 2px;
+    	max-width: 185px;
+	}
+	.heart-icon{
+		right: 8px;
+	}
+	p.octime{
+		font-size: 12px !important;
+		margin-left: 8%;
+		margin-top: 3px;
+		margin-right: 6px;
+	}
+	.otstar{
+		font-size: 13px;
+	}
+	.ratingkm {
+    	font-size: 12px !important;
+	}
+	.iconekm {
+    	font-size: 12px;
+    	padding-left: 10px !important;
+	}
+	.send-btn {
+    	height: auto;
+	}
+	.logo-space-login {
+    	margin-top: 110px;
+    	height: 156px;
+	}
+	/*.navtitle{
+		font-size: 16px;
+    	padding-top: 3px;
+	}*/
+	.cat{
+		padding:4px;
+		font-size: 13px !important;
+		margin-bottom: 10px !important;
+	}
+	.otimg {
+    	width: 30%;
+	}
+    .storetitle {
+    	padding-top: 9px;
+    	width: 70%;
+	}
+	.imgheart {
+    	height: 16px;
+    	width: 16px;
+	}
+	.hearticon{
+		right: 6px;
+	}
+	/*HOME PAGE END*/
+
+	/*ADD-ITEM PAGE*/
+	.storeinfo .storetit{
+		font-size: 16px;
+	}
+	.price{
+		font-size: 16px;
+	}
+	.storepad {
+    	padding-left: 10px;
+    	margin-top: 10px;
+	}
+	.allergy{
+	    font-size: 16px;
+	}
+	.additembutton{
+		font-size: 18px; 
+	}
+	.additem-itemdescription{
+		font-size: 15px;
+	}
+	/*ADD-ITEM PAGE END*/
+
+	/*CART PAGE*/
+	.itemname{
+		font-size: 16px;
+	}
+	.itemname {
+    	margin-top: 4px;
+    	margin-bottom: 15px;
+	}
+	.cart-price{
+		font-size: 15px;
+	}
+	.x-style{
+		font-size: 16px;
+	}
+	.bill-text{
+		font-size: 14px;
+	}
+	.bill-amount{
+		font-size: 14px;
+	}
+	.bottomborder .bill-title{
+    	margin-bottom: 5px;
+	}
+	.cart-add-btn {
+    	height: 25px;
+    	width: 62px;
+	}
+	.cart-item-img {
+    	height: 75px;
+    	width: 75px;
+	}
+	.bill-title{
+		font-size: 16px;
+	}
+	.cart-address{
+		margin-top: 8px;
+		max-width: 288px !important;
+		font-size: 14px;
+	}
+	.note{
+		font-size: 14px;
+	}
+	/*CART PAGE END*/
+
+	/*ORDERSUMMARY PAGE*/
+	.cart-item-name{
+		font-size: 16px;
+	}
+	.ordersummary-img {
+    	width: 27%;
+    	padding-right: 2%;
+	}
+	.ordersummary-item-title{
+		width: 73%;
+	}
+	.order-s-callicon {
+    	float: right;
+    	margin-top: 6.3%;
+	}
+	.order-s-mobilenumber{
+    	font-size: 15px;
+    	margin-top: 6%;
+    	margin-left: 5px;
+	}
+	.ordersummary-itemname{
+		margin-top: 2px;
+	}
+	.order-s{
+		margin-bottom: 3px;
+	}
+	.order-s-item-price{
+		font-size: 14px;
+	}
+	.tip-card-dis{
+		font-size: 14px;
+	}
+	.tip-buttons {
+	    width: 50px;
+	    height: 34px;
+	    font-size: 16px;
+	    margin-right: 7px;
+	    padding-bottom: 12px
+	}
+	/*ORDERSUMMARY PAGE END*/
+
+	/*ORDER PAGE*/
+	.line {
+    	top: 3px;
+    	left: 57%;
+	}
+	/*ORDER PAGE End*/
+
+	/*ORDER HISTORY PAGE*/
+	.modal-body .fa{
+    	font-size: 40px;
+    	padding: 5px;
+	}
+	.rate-store-name {
+	    margin-top: 3%;
+	    margin-bottom: 5%;
+	}
+	.order-time-date{
+		margin-bottom: 20px;
+	}
+	.order-text{
+	    margin-bottom: 8px !important;
+	}
+	.modal-header {
+    	padding: 3px 18px;
+	}
+	/*ORDER HISTORY PAGE END*/
+
+	/*DELIVERY STATUS PAGE*/
+	.for-twoline{	
+    	-webkit-line-clamp: 4;
+	}
+	.font-20{
+		font-size: 18px;
+	}
+	.service-tag-btn {
+    	border: 1px solid #d0cdcd;
+	    padding: 5px 2px;
+	    margin-left: 2px;
+	    font-size: 12px;
+	}
+	.tag-bt-padding{
+	    padding: 0px 6px;
+	}
+	/*DELIVERY STATUS PAGE END*/
+	/*ABC PAGE (After outlate selection)*/
+	.pagenav{
+		font-size: 18px; 
+	}
+	.timekm{
+		font-size: 14px;
+	}
+	.call{
+		margin-top: 12px;
+	}
+	.storepad .storetit{
+		font-size: 16px !important;
+		max-width: 280px!important;
+	}
+	.li-img.star-img{
+		margin-bottom: 5px;
+		margin-right:3px;
+	}
+	.li-img.location-img{
+		width: 10px;
+	}
+	.storedetails li:nth-child(1) {
+    	width: 20%;
+	}
+	.storedetails li:nth-child(2) {
+    	width: 25%;
+	}
+	.storedetails li:nth-child(3) {
+    	width: 40%;
+	}
+	.storedetails li:nth-child(4) {
+    	width: 15%;
+	}
+	.menu-clock-center{
+		text-align: center !important;
+	}
+	li .fav-img{
+		float: right;
+		margin-top: 4px;
+	    width: 18px;
+    	height: 17px;
+    	margin-right: 0px;
+	}
+	.menusearch-container {
+	    position: relative;
+	    width: 87%;
+	    display: inline-block;
+	}
+	.menusearch .menusearch-container input{
+		width: 100%;
+	}
+	.filter{
+		margin-left: 0px;
+	    float: right;
+    	margin-top: 0px;
+    	width: 36px;
+	}
+	.menusearch-icon{
+		right: 9px;
+	}
+	.menuimg {
+    	width: 22%;
+    }
+    .menutitle{
+    	width: 78%;
+    }
+    .menutitle .otname{
+    	margin-left: 4%;
+    	margin-top: 3px;
+    }
+    .menutitle .otdescription{
+    	margin-left: 4%;
+    }
+    .menutitle .addbutton{
+    	margin-top: 16%;
+    	width: 60px;
+    }
+    .menu-subcategory{
+    	margin-right: 3px;
+    }
+    .menutitle .heart-img{
+    	width: 17px;
+    	height: 16px;
+    	margin-left: 4px;
+    }
+    .menuimg .menu-img{
+    	width: 100%;
+    	height: auto;
+    	margin: 6px;
+    }
+    .menu-store-description.for-twoline{
+	    max-width: 280px;
+	    font-size: 12px;
+	}
+	.menusearch{
+		margin-top: 12px;
+	}
+	.whatsappicon {
+    	position: absolute;
+    	right: 11px;
+    	top: 1px;
+    	width: 29px;
+	}
+	.phone-img{
+		width: 19px;
+	}
+	.mobileno{
+		font-size: 16px;
+	}
+	/*ABC PAGE (After outlate selection) END*/	
+
+	/*.menu-store-description{
+		font-size: 12px;
+	}
+	.fevicon {
+		padding-left: 20px;
+		width: 38px;
+    }
+    .timekm{
+    	font-size: 15px;
+    }*/
+    /*.icons{
+    	font-size: 15px;
+    	padding-left: 20px;
+    	padding-top: 9px
+    }
+    .reatings{
+    	font-size: 15px;
+    }
+    .staricon{
+    	font-size: 16px;
+    	padding-top: 9px
+    }*/
+    /*.storedetails{
+    	height: 35px;
+    	margin-top: 3px;
+    }*/
+    /*.mobileno{
+    	font-size: 15px;
+    }*/
+    /*.whatsappicon{
+    	height: 26px;
+    	width: 26px;
+    	right: 11px;
+    	top: -1px;
+    }*/
+    /*.call{
+    	margin-top: 6px;
+    	margin-bottom: 6px;
+    }*/
+   /* .menusearch{
+    	margin-top: 6px;
+    }*/
+    /*.menusearch-container input{
+    	height: 36px;
+    }*/
+   /* .menusearch-icon{
+    	right: 57px;
+    	top: 8px;
+    	font-size: 18px !important;
+    }*/
+    /*.filter{
+    	height: 36px;
+    	width: 36px;
+    	margin-left: 3px;
+    }*/
+    .veg-novegbtn {
+    	height: 30px;
+    	width: 70px;
+    	padding: 3px 3px;
+    }
+    .veg-novegimg{
+    	padding-right: 4px;
+    	padding-bottom: 3px;
+    }
+	.cuisines{
+		margin-top: 8px;
+		margin-bottom: 5px;
+		font-size: 16px;
+	}
+	.tagbtn{
+		height: 28px;
+    	width: auto;
+    	padding: 0px 5px;
+    	font-size: 14px;
+    	margin-bottom: 4px;
+    	margin-right: 4px;
+    	border-radius: 6px;
+	}
+	.categoryname{
+		font-size: 16px;
+		padding-top: 0px;
+    	padding-left: 0px;
+    	padding-bottom: 0px;
+	}
+	.p-price{		
+    	padding-right: 0px;
+	}
+	.menu-img {
+    	height: 75px;
+    	width: 77px;
+    	margin: 3px;
+	}
+	.addbutton{
+		width: 56px;
+    	height: 25px;
+    	margin-top: 2px;
+    	font-size: 14px;
+	}
+	.pagetitle{
+		padding-left: 24px !important;
+		margin-top: 8px;
+	}
+	.quickjumpbtn {
+		height: 40px;
+		width: 40px;
+	}
+	
+	
+	.otp-box {
+	    height: 38px;
+	    width: 37px;
+	    margin: 4px;
+	    font-size: 22px;
+	}
+	.delivery-status-section .font-16{
+		font-size: 14px;
+	}
+	.track-order-titles{
+		font-size: 13px;
+	}
+	.track-order-details{
+		font-size: 11px;
+		margin-bottom: 3px;
+	}
+	.tab-pane .orderitem-price{
+	    margin-bottom: 3px;
+	}
+	.line-trackorder{
+		left: 60%;
+		top: 6px;
+	}
+	.delivry-boy {
+    	width: 150px;
+       	left: -4px;
+       	top: -15px;
+    	font-size: 12px;
+	}
+	.pl-3{
+		padding-left: 3px !important;
+	}
+	.track-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+		font-size: 14px;	
+	}
+	.track-tab .nav-link{
+		font-size: 14px;
+	}
+	.ord-img {
+    	padding-top: 6px;
+    	height: 60px;
+    	width: 55px;
+    	margin-left: -8px;
+	}
+	.orderitem-price{
+		margin-left: 15px;
+		font-size: 14px;
+	}
+	.heart-img-fav {
+    	padding-right: 4px;
+    	margin-top: 6px;
+	}
+	.fav-item-detail{
+		width: 95%;
+	}
+	/*select Address page */
+	.add-address-title{
+		padding-left: 72px !important;
+	}
+	.options{
+		width: 99px;
+		left: 79px;
+    	top: 15px;
+	}
+	.adsress-title{
+		font-size: 16px;
+	}
+	.addressText{
+		font-size: 14px;
+	}
+	.deleteText{
+		font-size: 14px;
+	}
+	.add-addresss-button{
+		font-size: 16px;
+		width: 75%;
+	}
+	.sc-btn-section .savebtn{
+		font-size: 14px;
+	}
+	.sc-btn-section .cancelbtn{
+		font-size: 14px;
+	}
+	/*myqr page*/
+	.col-3-left {
+    	width: 32%;
+	}
+	.col-9-right {
+    	width: 68%;
+	}
+	.qr-details{
+		font-size: 12px;
+	}
+	.myqr-store-name{
+		font-size: 16px;
+		margin-bottom: 1px;
+	}
+	.view-delete-btn {
+    	height: auto;
+    	width: 74px;
+    	padding: 5px 5px;
+    	margin: 7px 4px;
+    	font-size: 12px;
+    	margin-left: 0px;
+	}
+	.myqr-options{
+		padding: 6px;
+		left: 171px;
+		top: 23px;
+	}
+	.shareText{
+		font-size: 14px;
+	}
+	/*my qr page End*/
+
+}
+
+
+	/*.modal-body img{
+		width: 270px;
+	}*/
+	/*.otname{
+		font-size: 15px !important;
+    	margin-left: 5px;
+    	max-width: 145px!important;
+	}
+	.heart-icon{
+		right: 18px;
+	    height: 5px;
+	    width: 5px;
+	}
+	.storetitle {
+    	padding-top: 5px;
+    	width: 65%;
+	}
+	.otdescription {
+    	margin-left: 5px;
+    	margin-bottom: 2px;
+	}
+	.fa-star{
+		font-size: 13px;
+	}
+	.octime{
+		font-size: 13px !important;
+		margin-left: 5px;
+	}
+	.ratingkm {
+    	font-size: 13px !important;
+	}
+	.imgheart{
+		height: 18px;
+    	width: 18px;
+	}
+	.iconekm{
+		font-size: 13px;
+	}
+	.cat{
+		padding: 4px;
+		font-size: 13px !important;
+	}
+	header{
+		height: 46px;
+	}
+	.navtitle{
+		font-weight: 500;
+		font-size: 16px;
+	}
+	.navtext {
+    	padding-top: 2px;
+	}
+	.col{
+		padding-right: 5px;
+    	padding-left: 5px;
+	}
+	.otimg{width: 35%;}*/
