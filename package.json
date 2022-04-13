@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix connect-user && npm run build --prefix connect-user"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix connect-u && npm run build --prefix connect-u"
   },
   "author": "sohil",
   "license": "ISC",
@@ -26,5 +26,8 @@
     "multer": "^1.4.4",
     "nodemon": "^2.0.15",
     "uuid": "^3.3.3"
-  }
+  },
+  "engines": {
+  "node": "10.x"
+}
 }
