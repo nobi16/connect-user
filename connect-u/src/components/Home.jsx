@@ -32,8 +32,6 @@ function Home({ businessData, fetchbusiness, search }) {
 		return Object.keys(found).map(key => found[key]);
 	}
 
-
-
 	const filterItem = (cat) => {
 		if (cat == "All") {
 			setFilterDatas(business);
@@ -63,8 +61,6 @@ function Home({ businessData, fetchbusiness, search }) {
 			let bs = findUnique(bus2, d => d.category)
 			setCat(bs);
 		}
-
-
 		// serch part
 		if (search == "") {
 			setcategory("All");
@@ -77,7 +73,7 @@ function Home({ businessData, fetchbusiness, search }) {
 			setFilterDatas(data)
 		}
 
-	}, [businessData, search]);
+	}, [businessData,filterDatas, search]);
 	
 	useEffect(() => {
         // if (product) {
