@@ -78,6 +78,7 @@ function Home({ businessData, fetchbusiness, search }) {
 		}
 
 	}, [businessData, search]);
+	
 	useEffect(() => {
         // if (product) {
           let pcount = Math.ceil(filterDatas.length / perPage);
