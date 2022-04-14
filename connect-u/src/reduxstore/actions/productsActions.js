@@ -30,7 +30,7 @@ export const listProduct = (business_id) => async (dispatch, getState) => {
                 Authorization: `Bearer ${userInfo.token}`,
             },
         };
-        const { data } = await axios.post(`http://localhost:5001/api/product`, { business_id: `${business_id}` }, config);
+        const { data } = await axios.post(`/api/product`, { business_id: `${business_id}` }, config);
         await localStorage.setItem("product", JSON.stringify(data))
         dispatch({
             type: PRODUCT_LIST_SUCCESS,
@@ -61,7 +61,7 @@ export const listBusinessProducts = (business_id) => async (dispatch, getState) 
                 "Content-Type": "application/json"
             },
         };
-        const { data } = await axios.post(`http://localhost:5001/api/product`, { business_id: `${business_id}` },  config);
+        const { data } = await axios.post(`/api/product`, { business_id: `${business_id}` },  config);
         await localStorage.setItem("product", JSON.stringify(data))
         dispatch({
             type: PRODUCT_LIST_SUCCESS,
@@ -93,7 +93,7 @@ export const listAllProduct = () => async (dispatch, getState) => {
                 "Content-Type": "application/json"
             },
         };
-        const { data } = await axios.get(`http://localhost:5001/api/product/getallproduct`, config);
+        const { data } = await axios.get(`/api/product/getallproduct`, config);
         await localStorage.setItem("product", JSON.stringify(data))
         dispatch({
             type: PRODUCT_LIST_SUCCESS,
@@ -135,7 +135,7 @@ export const createProductAction = (name, price, info, photo, business_id) => as
         };
 
         const { data } = await axios.post(
-            `http://localhost:5001/api/product/createproduct`,
+            `/api/product/createproduct`,
             { name, price, info, photo, business_id },
             config
         );
@@ -174,7 +174,7 @@ export const deleteProductAction = (id) => async (dispatch, getState) => {
             },
         };
 
-        const { data } = await axios.delete(`http://localhost:5001/api/product/${id}`, config);
+        const { data } = await axios.delete(`/api/product/${id}`, config);
 
         dispatch({
             type: PRODUCT_DELETE_SUCCESS,
@@ -213,7 +213,7 @@ export const updatePoductAction = (name, price, info, photo, business_id, sid) =
         };
 
         const { data } = await axios.put(
-            `http://localhost:5001/api/product/${sid}`,
+            `/api/product/${sid}`,
             { name, price, info, photo, business_id },
             config
         );
@@ -250,7 +250,7 @@ export const updateProductRatingAction = (pid, rating, count) => async (
         };
 
         const { data } = await axios.put(
-            `http://localhost:5001/api/product`,
+            `/api/product`,
             { pid, rating, count },
             config
         );

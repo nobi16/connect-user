@@ -31,7 +31,7 @@ export const listBusiness = () => async (dispatch, getState) => {
       },
     };
 
-    const { data } = await axios.get(`http://localhost:5001/api/business`, config);
+    const { data } = await axios.get(`/api/business`, config);
 
     await localStorage.setItem("Own_businesses", JSON.stringify(data))
     dispatch({
@@ -66,7 +66,7 @@ export const listOneBusiness = (bid) => async (dispatch, getState) => {
       },
     };
 
-    const { data } = await axios.get(`http://localhost:5001/api/business/${bid}`, config);
+    const { data } = await axios.get(`/api/business/${bid}`, config);
     await localStorage.setItem("one_businesses", JSON.stringify(data))
     await dispatch({
       type: BUSINESS_LIST_SUCCESS,
@@ -100,7 +100,7 @@ export const listAllBusiness = (latitude, longitude) => async (dispatch, getStat
       },
     };
 
-    const { data } = await axios.get(`http://localhost:5001/api/business/getallbusiness`, config);
+    const { data } = await axios.get(`/api/business/getallbusiness`, config);
 
     let arr = []
     data.map((business) => {
@@ -150,7 +150,7 @@ export const createBusinessAction = (name, category, mobile, photo, longitude, l
     debugger
 
     const { data } = await axios.post(
-      "http://localhost:5001/api/business/createbusiness",
+      "/api/business/createbusiness",
       { name, category, mobile, photo, longitude, latitude },
       config
     );
@@ -189,7 +189,7 @@ export const deleteBusinessAction = (id) => async (dispatch, getState) => {
       },
     };
 
-    const { data } = await axios.delete(`http://localhost:5001/api/business/${id}`, config);
+    const { data } = await axios.delete(`/api/business/${id}`, config);
 
     dispatch({
       type: BUSINESS_DELETE_SUCCESS,
@@ -228,7 +228,7 @@ export const updateBusinessAction = (id, name, category, mobile, photo, longitud
     };
 
     const { data } = await axios.put(
-      `http://localhost:5001/api/business/${id}`,
+      `/api/business/${id}`,
       { name, category, mobile, photo, longitude, latitude },
       config
     );
@@ -265,7 +265,7 @@ export const updateBusinessRatingAction = (rating, bid, count) => async (
     };
 
     const { data } = await axios.put(
-      `http://localhost:5001/api/business`,
+      `/api/business`,
       { rating, bid, count },
       config
     );

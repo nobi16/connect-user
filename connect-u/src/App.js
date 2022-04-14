@@ -5,14 +5,13 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home2 from './components/Home2';
+
 import { useDispatch } from 'react-redux';
 import { listAllBusiness } from './reduxstore/actions/businesssActions';
 import { listAllServices } from './reduxstore/actions/servicesActions';
 import { listAllProduct } from './reduxstore/actions/productsActions';
 import AllServices from './components/AllServices';
 import ProductsOnly from './components/ProductsOnly';
-import Home3 from './components/Home3';
 
 function App() {
   const dispatch = useDispatch();
