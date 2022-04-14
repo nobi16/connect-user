@@ -46,9 +46,9 @@ function Home({ businessData, fetchbusiness, search }) {
 			})
 			setOriginalFilterData(arr)
 			setFilterDatas(arr)
-			console.log(business);
 		}
 	}
+	console.log(filterDatas);
 
 	useEffect(() => {
 		// gettng main data
@@ -73,7 +73,7 @@ function Home({ businessData, fetchbusiness, search }) {
 			setFilterDatas(data)
 		}
 
-	}, [businessData,filterDatas, search]);
+	}, [businessData, search]);
 	
 	useEffect(() => {
         // if (product) {
@@ -95,15 +95,12 @@ function Home({ businessData, fetchbusiness, search }) {
 		// 		arrs.push(data)
 		// 	}
 		// })
-		const arrs = filterDatas.filter((data) => {
+		const arrs = originalFilterData.filter((data) => {
 			return data.distance <= dist
 		})
 		setFilterDatas(arrs)
-		// console.log(originalFilterData);
+		console.log(filterDatas);
 	}
-
-
-
 
 	return businessData.loading ? (
 		<div style={{ height: '100vh', width: '100%' }}>Loading!!!</div>
