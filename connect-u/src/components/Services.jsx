@@ -60,6 +60,7 @@ function Services({ search }) {
         dispatch(listServices(location.state.bid))
         dispatch(listBusinessProducts(location.state.bid))
         // debugger
+        console.log("hi");
         // setServices(servicesList)
         // setProducts(productsList)
     }, [])
