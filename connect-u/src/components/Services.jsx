@@ -33,8 +33,8 @@ function Services({ search }) {
     const [perPage, setPerPage] = useState(3);
     const [activepage, setActivepage] = useState(1);
     const [pagelength, setPagelength] = useState(0);
-    const [service, setService] = useState({});
-    const [product, setProduct] = useState({});
+    const [services, setServices] = useState({});
+    const [products, setProducts] = useState({});
 
 
 
@@ -53,17 +53,14 @@ function Services({ search }) {
 
 
     const dispatch = useDispatch();
+    const servicesList = [];
+    const productsList = [];
 
-    // useEffect(() => {
-    //     // localStorage.removeItem("one_businesses");
-
-    // }, [])
     useEffect(() => {
-        setService(useSelector((state) => state.servicesList))
-        // const { services } = servicesList;
-        setProduct(useSelector((state) => state.productsList))
-        // const { products } = productsList;
-
+        servicesList = useSelector((state) => state.servicesList);
+        setServices(servicesList)
+        productsList = useSelector((state) => state.productsList);
+        setProducts(productsList)
     }, [])
 
     useEffect(() => {
@@ -96,7 +93,7 @@ function Services({ search }) {
             // console.log(products);
             setPagelength(pcount)
         }
-    }, [service, product])
+    }, [services, products])
     // useEffect(() => {
     // //   setvalue(!value)
     // }, [])
@@ -169,7 +166,7 @@ function Services({ search }) {
             <div className="container deskContent">
                 <div className="row">
                     {toggleItem == "Services" ?
-                        service && service.map((service, i) => {
+                        services && services.map((service, i) => {
                             if (i < ((activepage * perPage)) && i > (((activepage - 1) * perPage) - 1)) {
                                 return (
                                     <div className="col-12 col-sm-6 col-md-4 col-lg-3 my-2 " key={i}>
@@ -203,7 +200,7 @@ function Services({ search }) {
                                 )
                             }
                         }) : toggleItem == "Products" ?
-                            product && product.map((product, i) => {
+                            products && products.map((product, i) => {
                                 if (i < ((activepage * perPage)) && i > (((activepage - 1) * perPage) - 1)) {
                                     return (
                                         <div className="col-12 col-sm-6 col-md-4 col-lg-3 my-2 ">
