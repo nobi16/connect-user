@@ -33,12 +33,12 @@ function Services({ search }) {
     const [perPage, setPerPage] = useState(3);
     const [activepage, setActivepage] = useState(1);
     const [pagelength, setPagelength] = useState(0);
-    const [services, setServices] = useState([]);
-    const [products, setProducts] = useState([]);
-    
+    // const [services, setServices] = useState([]);
+    // const [products, setProducts] = useState([]);
+
     const businessList = useSelector((state) => state.businessList);
     const { loading, error, businesses } = businessList;
-    
+
     const businessUpdate = useSelector((state) => state.businessUpdate);
     const { success: successUpdate } = businessUpdate;
 
@@ -47,11 +47,11 @@ function Services({ search }) {
 
     const productUpdate = useSelector((state) => state.productUpdate);
     const { success: successsPUpdate } = productUpdate;
-    
+
     const servicesList = useSelector((state) => state.servicesList);
-    // const { services } = servicesList;
+    const { services } = servicesList;
     const productsList = useSelector((state) => state.productsList);
-    // const { products } = productsList;
+    const { products } = productsList;
 
 
     const dispatch = useDispatch();
@@ -60,9 +60,9 @@ function Services({ search }) {
         dispatch(listServices(location.state.bid))
         dispatch(listBusinessProducts(location.state.bid))
         // debugger
+        // setServices(servicesList)
+        // setProducts(productsList)
     }, [])
-    setServices(servicesList)
-    setProducts(productsList)
     console.log(services);
     console.log(products);
     useEffect(() => {
