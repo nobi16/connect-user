@@ -56,14 +56,14 @@ function Services({ search }) {
 
     const dispatch = useDispatch();
 
-    useEffect(() => {
-        dispatch(listServices(location.state.bid))
-        dispatch(listBusinessProducts(location.state.bid))
-        // debugger
-        console.log("hi");
-        // setServices(servicesList)
-        // setProducts(productsList)
-    }, [])
+    dispatch(listServices(location.state.bid))
+    dispatch(listBusinessProducts(location.state.bid))
+    // useEffect(() => {
+    //     // debugger
+    //     console.log("hi");
+    //     // setServices(servicesList)
+    //     // setProducts(productsList)
+    // }, [])
     console.log(services);
     console.log(products);
     useEffect(() => {
@@ -82,7 +82,7 @@ function Services({ search }) {
         //     // console.log(data);
         // }
         // debugger
-    }, [successUpdate, successUpdates, successsPUpdate, toggleItem]);
+    }, [successUpdate, successUpdates, successsPUpdate]);
     useEffect(() => {
         if (toggleItem === "Services" && services) {
             let pcount = Math.ceil(services.length / perPage);
