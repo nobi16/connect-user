@@ -53,15 +53,13 @@ function Services({ search }) {
 
 
     const dispatch = useDispatch();
-    const servicesList = [];
-    const productsList = [];
-
+    const servicesList = useSelector((state) => state.servicesList);
+    
+    const productsList = useSelector((state) => state.productsList);
     useEffect(() => {
-        servicesList = useSelector((state) => state.servicesList);
-        setServices(servicesList)
-        productsList = useSelector((state) => state.productsList);
-        setProducts(productsList)
-    }, [])
+        setServices(dispatch(listServices(location.state.bid)))
+        setProducts(dispatch(listBusinessProducts(location.state.bid)))
+    }, [servicesList,productsList])
 
     useEffect(() => {
         dispatch(listOneBusiness(location.state.bid)).then(() => {
@@ -70,16 +68,16 @@ function Services({ search }) {
             setbusines(bus2);
         }).catch((err) => alert(err))
 
-        dispatch(listServices(location.state.bid));
-        // setdata(services);
-        // console.log(data);
-        if (toggleItem === "Products") {
-            dispatch(listBusinessProducts(location.state.bid));
-            // setdata(products);
-            // console.log(data);
-        }
+        // dispatch(listServices(location.state.bid));
+        // // setdata(services);
+        // // console.log(data);
+        // if (toggleItem === "Products") {
+        //     dispatch(listBusinessProducts(location.state.bid));
+        //     // setdata(products);
+        //     // console.log(data);
+        // }
         // debugger
-    }, [successUpdate, successUpdates, successsPUpdate, toggleItem]);
+    }, [successUpdate, successUpdates, successsPUpdate]);
     useEffect(() => {
         if (toggleItem === "Services" && services) {
             let pcount = Math.ceil(services.length / perPage);
