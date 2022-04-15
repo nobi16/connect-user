@@ -30,17 +30,17 @@ function Services({ search }) {
     const [id, setid] = useState('');
     const [count, setcount] = useState("");
     const [busines, setbusines] = useState({})
-    const [perPage, setPerPage] = useState(4);
+    const [perPage, setPerPage] = useState(3);
     const [activepage, setActivepage] = useState(1);
     const [pagelength, setPagelength] = useState(0);
     const [services, setServices] = useState([]);
     const [products, setProducts] = useState([]);
 
 
-
+    
     const businessList = useSelector((state) => state.businessList);
     const { loading, error, businesses } = businessList;
-
+    
     const businessUpdate = useSelector((state) => state.businessUpdate);
     const { success: successUpdate } = businessUpdate;
 
@@ -49,15 +49,19 @@ function Services({ search }) {
 
     const productUpdate = useSelector((state) => state.productUpdate);
     const { success: successsPUpdate } = productUpdate;
-
+    
+    
+    const servicesList = useSelector((state) => state.servicesList);
+    // const { services } = servicesList;
+    const productsList = useSelector((state) => state.productsList);
+    // const { products } = productsList;
 
 
     const dispatch = useDispatch();
+
     useEffect(() => {
-        const servicesList = useSelector((state) => state.servicesList)
-        const productsList = useSelector((state) => state.productsList)
-        setProducts(dispatch(listBusinessProducts(location.state.bid)))
-        setServices(dispatch(listServices(location.state.bid)))
+        setServices(servicesList)
+        setProducts(productsList)
     }, [])
 
     useEffect(() => {
@@ -67,17 +71,16 @@ function Services({ search }) {
             setbusines(bus2);
         }).catch((err) => alert(err))
 
-        // dispatch(listServices(location.state.bid));
-        // // setdata(services);
-        // // console.log(data);
-        // if (toggleItem === "Products") {
-        //     dispatch(listBusinessProducts(location.state.bid));
-        //     // setdata(products);
-        //     // console.log(data);
-        // }
+        dispatch(listServices(location.state.bid));
+        // setdata(services);
+        // console.log(data);
+        if (toggleItem === "Products") {
+            dispatch(listBusinessProducts(location.state.bid));
+            // setdata(products);
+            // console.log(data);
+        }
         // debugger
-    }, [successUpdate, successUpdates, successsPUpdate]);
-    
+    }, [successUpdate, successUpdates, successsPUpdate, toggleItem]);
     useEffect(() => {
         if (toggleItem === "Services" && services) {
             let pcount = Math.ceil(services.length / perPage);
