@@ -17,13 +17,13 @@ function Serviceinfo({ show, onHide, name, price, rating, info, src, mobile, id,
 
     const ratingChanged = (rating, b_rating, count) => {
         let updateCount = count + 1;
-        let updateRating = (rating + b_rating) / 2;
+        let updateRating = (rating + (b_rating*count)) / updateCount;
         dispatch(updateServiceRatingAction(id, updateRating, updateCount))
     }
 
     const ratingChanged2 = (rating, b_rating, count) => {
         let updateCount = count + 1;
-        let updateRating = (rating + b_rating) / 2;
+        let updateRating = (rating + (b_rating*count)) / updateCount;
         dispatch(updateProductRatingAction(id, updateRating, updateCount))
     }
 
@@ -68,7 +68,6 @@ function Serviceinfo({ show, onHide, name, price, rating, info, src, mobile, id,
                                         onChange={(e) => ratingChanged(e, rating, count)}
                                         size={24}
                                         color2={'#ffd700'} /> :
-
                                         <ReactStars
                                             count={5}
                                             value={rating}

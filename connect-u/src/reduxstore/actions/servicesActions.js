@@ -98,7 +98,7 @@ export const listAllServices = () => async (dispatch, getState) => {
         };
 
         const { data } = await axios.get(`/api/service/getallservice`, config);
-         localStorage.setItem("services", JSON.stringify(data))
+        localStorage.setItem("services", JSON.stringify(data))
         dispatch({
             type: SERVICES_LIST_SUCCESS,
             payload: data,
