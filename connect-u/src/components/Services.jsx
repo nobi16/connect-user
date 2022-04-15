@@ -30,7 +30,7 @@ function Services({ search }) {
     const [id, setid] = useState('');
     const [count, setcount] = useState("");
     const [busines, setbusines] = useState({})
-    const [perPage, setPerPage] = useState(3);
+    const [perPage, setPerPage] = useState(4);
     const [activepage, setActivepage] = useState(1);
     const [pagelength, setPagelength] = useState(0);
     const [services, setServices] = useState([]);
@@ -53,13 +53,12 @@ function Services({ search }) {
 
 
     const dispatch = useDispatch();
-    const servicesList = useSelector((state) => state.servicesList);
-    
-    const productsList = useSelector((state) => state.productsList);
     useEffect(() => {
-        setServices(dispatch(listServices(location.state.bid)))
+        const servicesList = useSelector((state) => state.servicesList)
+        const productsList = useSelector((state) => state.productsList)
         setProducts(dispatch(listBusinessProducts(location.state.bid)))
-    }, [servicesList,productsList])
+        setServices(dispatch(listServices(location.state.bid)))
+    }, [])
 
     useEffect(() => {
         dispatch(listOneBusiness(location.state.bid)).then(() => {
@@ -78,6 +77,7 @@ function Services({ search }) {
         // }
         // debugger
     }, [successUpdate, successUpdates, successsPUpdate]);
+    
     useEffect(() => {
         if (toggleItem === "Services" && services) {
             let pcount = Math.ceil(services.length / perPage);
