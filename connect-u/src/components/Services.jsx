@@ -60,9 +60,9 @@ function Services({ search }) {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        setServices(servicesList)
-        setProducts(productsList)
-        debugger
+        setServices(dispatch(listServices(location.state.bid)))
+        setProducts(dispatch(listBusinessProducts(location.state.bid)))
+        // debugger
     }, [servicesList,productsList])
     console.log(services);
     console.log(products);
@@ -73,14 +73,14 @@ function Services({ search }) {
             setbusines(bus2);
         }).catch((err) => alert(err))
 
-        dispatch(listServices(location.state.bid));
+        // dispatch(listServices(location.state.bid));
         // setdata(services);
         // console.log(data);
-        if (toggleItem === "Products") {
-            dispatch(listBusinessProducts(location.state.bid));
+        // if (toggleItem === "Products") {
+            // dispatch(listBusinessProducts(location.state.bid));
             // setdata(products);
             // console.log(data);
-        }
+        //}
         // debugger
     }, [successUpdate, successUpdates, successsPUpdate, toggleItem]);
     useEffect(() => {
