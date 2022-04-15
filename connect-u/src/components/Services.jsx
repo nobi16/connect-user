@@ -62,7 +62,8 @@ function Services({ search }) {
     useEffect(() => {
         setServices(servicesList)
         setProducts(productsList)
-    }, [])
+        debugger
+    }, [servicesList,productsList])
 
     useEffect(() => {
         dispatch(listOneBusiness(location.state.bid)).then(() => {
