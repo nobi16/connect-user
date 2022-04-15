@@ -33,8 +33,8 @@ function Services({ search }) {
     const [perPage, setPerPage] = useState(3);
     const [activepage, setActivepage] = useState(1);
     const [pagelength, setPagelength] = useState(0);
-    // const [services, setServices] = useState([]);
-    // const [products, setProducts] = useState([]);
+    const [services, setServices] = useState([]);
+    const [products, setProducts] = useState([]);
     
     const businessList = useSelector((state) => state.businessList);
     const { loading, error, businesses } = businessList;
@@ -49,18 +49,20 @@ function Services({ search }) {
     const { success: successsPUpdate } = productUpdate;
     
     const servicesList = useSelector((state) => state.servicesList);
-    const { services } = servicesList;
+    // const { services } = servicesList;
     const productsList = useSelector((state) => state.productsList);
-    const { products } = productsList;
+    // const { products } = productsList;
 
 
     const dispatch = useDispatch();
 
-    // useEffect(() => {
-    //     setServices(dispatch(listServices(location.state.bid)))
-    //     setProducts(dispatch(listBusinessProducts(location.state.bid)))
-    //     // debugger
-    // }, [servicesList,productsList])
+    useEffect(() => {
+        dispatch(listServices(location.state.bid))
+        dispatch(listBusinessProducts(location.state.bid))
+        // debugger
+    }, [])
+    setServices(servicesList)
+    setProducts(productsList)
     console.log(services);
     console.log(products);
     useEffect(() => {
@@ -70,14 +72,14 @@ function Services({ search }) {
             setbusines(bus2);
         }).catch((err) => alert(err))
 
-        dispatch(listServices(location.state.bid));
-        // setdata(services);
-        // console.log(data);
-         if (toggleItem === "Products") {
-            dispatch(listBusinessProducts(location.state.bid));
-            // setdata(products);
-            // console.log(data);
-        }
+        // dispatch(listServices(location.state.bid));
+        // // setdata(services);
+        // // console.log(data);
+        //  if (toggleItem === "Products") {
+        //     dispatch(listBusinessProducts(location.state.bid));
+        //     // setdata(products);
+        //     // console.log(data);
+        // }
         // debugger
     }, [successUpdate, successUpdates, successsPUpdate, toggleItem]);
     useEffect(() => {
