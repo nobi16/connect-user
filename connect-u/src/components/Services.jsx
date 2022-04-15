@@ -64,7 +64,8 @@ function Services({ search }) {
         setProducts(productsList)
         debugger
     }, [servicesList,productsList])
-
+    console.log(services);
+    console.log(products);
     useEffect(() => {
         dispatch(listOneBusiness(location.state.bid)).then(() => {
             let bus = localStorage.getItem("one_businesses");
