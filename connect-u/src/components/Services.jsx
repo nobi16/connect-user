@@ -56,14 +56,14 @@ function Services({ search }) {
 
     const dispatch = useDispatch();
 
-    dispatch(listServices(location.state.bid))
-    dispatch(listBusinessProducts(location.state.bid))
-    // useEffect(() => {
-    //     // debugger
-    //     console.log("hi");
-    //     // setServices(servicesList)
-    //     // setProducts(productsList)
-    // }, [])
+    useEffect(() => {
+        dispatch(listServices(location.state.bid))
+        dispatch(listBusinessProducts(location.state.bid))
+        // debugger
+        console.log("hi");
+        // setServices(servicesList)
+        // setProducts(productsList)
+    }, [])
     console.log(services);
     console.log(products);
     useEffect(() => {
