@@ -33,8 +33,8 @@ function Services({ search }) {
     const [perPage, setPerPage] = useState(3);
     const [activepage, setActivepage] = useState(1);
     const [pagelength, setPagelength] = useState(0);
-    const [services, setServices] = useState({});
-    const [products, setProducts] = useState({});
+    const [services, setServices] = useState([]);
+    const [products, setProducts] = useState([]);
 
 
 
